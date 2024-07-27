@@ -2,7 +2,7 @@
 
 > **Objective:** This document compiles and summarizes articles that utilize the `XJTU battery dataset`, providing detailed records of the results reported in these articles. This is intended to facilitate direct comparison for future works using the same dataset.
 
-Chinese document:![Chinese](./README-CH.md)
+Chinese document: [Chinese](./README-CH.md)
 
 Last updated🕒: 2024-07-27 😀😀😀  
 
