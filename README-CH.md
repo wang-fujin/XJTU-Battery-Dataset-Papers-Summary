@@ -2,7 +2,7 @@
 # 用了XJTU battery dataset的文章统计和整理
 
 > [!NOTE]
-> 目的：本文件统计和整理了使用XJTU battery dataset的文章，并详细记录了该文章中的结果，便于其他文章在使用该数据集时可以直接搬运这里的结果对比。
+> **目的**：本文件统计和整理了使用XJTU battery dataset的文章，并详细记录了该文章中的结果，便于其他文章在使用该数据集时可以直接搬运这里的结果对比。
 
 English document: [English](./README.md)
 
