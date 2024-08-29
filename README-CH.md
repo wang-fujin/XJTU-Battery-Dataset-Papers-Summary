@@ -6,7 +6,7 @@
 
 English document: [English](./README.md)
 
-最近更新🕒：2024-07-27 😀😀😀
+最近更新🕒：2024-08-29 😀😀😀
 
 
 **数据集链接：**
@@ -40,15 +40,21 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 
 ---
 
+
 ### SOH估计结果汇总
-| Battery |   Model Name   | Mode |    MSE     |  RMSE   |  MAE   |    MAPE     | R<sup>2</sup> |             Details             | Paper Link | Non-transfer learning | Transfer learning |
-|:-------:|:--------------:|:----:|:----------:|:-------:|:------:|:-----------:|:-------------:|:-------------------------------:|:-----:|:-----:|:-----:|
-| `B1b1`  |  HHO-LSTM-FC   | `AA` |     -      | 0.0078  | 0.0065 |      -      |    0.9422     | [Yang et al.](#yang2024) | [link](https://www.mdpi.com/2071-1050/16/15/6316) | ✅ | ✅  |
-|  `All`  |    CNN[^1]     | `AB` |  0.000161  | -       | 0.0085 |   0.00926   |    0.9187     | [Wang et al.](#wang2024) | [link](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub) | ✅ | ❌  |
-|  `All`  |    LSTM[^1]    | `AB` |  0.000117  | -       | 0.0079 |   0.00861   |    0.9407     | [Wang et al.](#wang2024) | [link](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub) | ✅ | ❌  |
-|  `All`  |    GRU[^1]     | `AB` | 0.0000983  | -       | 0.0071 |   0.00776   |    0.9503     | [Wang et al.](#wang2024) | [link](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub) | ✅ | ❌  |
-|  `All`  |    MLP[^1]     | `AB` |  0.000139  | -       | 0.0078 |   0.00844   |    0.9331     | [Wang et al.](#wang2024) | [link](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub) | ✅ | ❌  |
-|  `All`  | Attention[^1]  | `AB` |  0.000135  | -       | 0.0087 |   0.00950   |    0.9317     | [Wang et al.](#wang2024) | [link](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub) | ✅ | ❌  |
+| Battery |  Model Name   | Mode |    MSE    |  RMSE  |  MAE   |  MAPE   | R<sup>2</sup> |              Details              |                                                           Paper Link                                                           | Non-transfer learning | Transfer learning |
+|:-------:|:-------------:|:----:|:---------:|:------:|:------:|:-------:|:-------------:|:---------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|:-----:|:-----:|
+| `B1b1`  |  HHO-LSTM-FC  | `AA` |     -     | 0.0078 | 0.0065 |    -    |    0.9422     |  [Yang et al. (2024)](#yang2024)  |                                       [link](https://www.mdpi.com/2071-1050/16/15/6316)                                        | ✅ | ✅  |
+|  `All`  |    CNN[^1]    | `AB` | 0.000161  |   -    | 0.0085 | 0.00926 |    0.9187     | [Wang et al. (2024a)](#wang2024a) |                     [link](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub)                     | ✅ | ❌  |
+|  `All`  |   LSTM[^1]    | `AB` | 0.000117  |   -    | 0.0079 | 0.00861 |    0.9407     | [Wang et al. (2024a)](#wang2024a) |                     [link](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub)                     | ✅ | ❌  |
+|  `All`  |    GRU[^1]    | `AB` | 0.0000983 |   -    | 0.0071 | 0.00776 |    0.9503     | [Wang et al. (2024a)](#wang2024a) |                     [link](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub)                     | ✅ | ❌  |
+|  `All`  |    MLP[^1]    | `AB` | 0.000139  |   -    | 0.0078 | 0.00844 |    0.9331     | [Wang et al. (2024a)](#wang2024a) |                     [link](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub)                     | ✅ | ❌  |
+|  `All`  | Attention[^1] | `AB` | 0.000135  |   -    | 0.0087 | 0.00950 |    0.9317     | [Wang et al. (2024a)](#wang2024a) |                     [link](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub)                     | ✅ | ❌  |
+|  `B1`   |   MMAU-Net    | `AB` |    -      | 1.40%  | 1.02%  |   -     |      -        | [Fan et al. (2024a)](#fan2024a)   |                                       [link](https://www.mdpi.com/2079-9292/13/16/3244)                                        | ✅ | ❌  |
+|  `B2`   |   MMAU-Net    | `AB` |     -     | 1.50%  | 1.04%  |    -    |       -       |  [Fan et al. (2024a)](#fan2024a)  |                                       [link](https://www.mdpi.com/2079-9292/13/16/3244)                                        | ✅ | ❌  |
+|  `B3`   |   MMAU-Net    | `AB` |     -     | 1.04%  | 0.66%  |    -    |       -       |  [Fan et al. (2024a)](#fan2024a)  |                                       [link](https://www.mdpi.com/2079-9292/13/16/3244)                                        | ✅ | ❌  |
+| `B1-B2` |   MSCNN[^1]   | `AB` |     -     | 0.74%  | 0.67%  |  0.37%  |       -       | [Wang et al. (2024b)](#wang2024b) |                                           [link](https://doi.org/10.3390/en17174220)                                           | ✅ | ❌  |
+
 
 [^1]: 表格中的MSE，RMSE，MAE，MAPE都是所有电池的平均值。
 
@@ -87,8 +93,8 @@ Yang et al. (2024)
 </details>
 
 <details>
-<summary id="wang2024">
-Wang et al. (2024)
+<summary id="wang2024a">
+Wang et al. (2024a)
 </summary>
 
 [Wang F, Zhai Z, Liu B, et al. Open access dataset, code library and benchmarking deep learning approaches for state-of-health estimation of lithium-ion batteries[J]. Journal of Energy Storage, 2024, 77: 109884.](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub)
@@ -102,10 +108,90 @@ Wang et al. (2024)
 由于结果太多，我们只展示其中一种结果，其他结果可以查看原文。
 </details>
 
+<details>
+<summary id="fan2024a">
+Fan et al. (2024a)
+</summary>
+
+[Fan X, Yang X, Hou F. Integrated Mixed Attention U-Net Mechanisms with Multi-Stage Division Strategy Customized for Accurate Estimation of Lithium-Ion Battery State of Health[J]. Electronics, 2024, 13(16): 3244.](https://www.mdpi.com/2079-9292/13/16/3244)
+
+文章使用了Batch-1、Batch-2和Batch-3的数据。
+模型的输入为原始的电压、电流和温度数据。
+
+训练集和测试集划分方式：
+
+<img src="./Figures/Fan2024a-1.png" alt="Description" width="50%"/>
+
+实验结果：
+
+<img src="./Figures/Fan2024a-2.png" alt="Description" width="50%"/>
+
+
+</details>
+
+<details>
+<summary id="wang2024b">
+Wang et al. (2024b)
+</summary>
+
+[Wang J, Li H, Wu C, et al. State of Health Estimations for Lithium-Ion Batteries Based on MSCNN[J]. Energies, 2024, 17(17): 4220.](https://doi.org/10.3390/en17174220)
+
+文章从充电数据中提取了8个特征，分别为：
+`恒流充电时间`、`恒压充电时间`、`平均充电电压`、`平均充电电流`、`充电电压标准差`、
+`充电电流偏度`、`充电电压偏度`、`充电电压峰度`。
+分了3种模式来验证模型性能。
+
+**注意**：下面表格中的记法`Group A`等效于上文定义的`B1`;
+`Group B`等效于上文定义的`B2`。
+
+---
+
+**模式1：同一批次训练和测试**
+训练集和测试集划分方式：
+
+<img src="./Figures/Wang2024b-1.png" alt="Description" width="50%"/>
+
+Batch-1数据集上的结果（表格中的`Group A 1` = `B1b1`） ：
+
+<img src="./Figures/Wang2024b-2.png" alt="Description" width="50%"/>
+
+
+Batch-2数据集上的结果（文章选择了Batch-2中的编号为奇数的电池，所以`Group B x` = `B2b(2x-1)`）：
+
+<img src="./Figures/Wang2024b-3.png" alt="Description" width="50%"/>
+
+---
+
+**模式2：改变训练集的大小**
+训练集和测试集划分方式：
+
+<img src="./Figures/Wang2024b-4.png" alt="Description" width="50%"/>
+
+
+实验结果：
+
+<img src="./Figures/Wang2024b-5.png" alt="Description" width="50%"/>
+
+
+---
+
+**模式3：两个批次混合训练和测试**
+训练集和测试集划分方式：
+
+<img src="./Figures/Wang2024b-6.png" alt="Description" width="50%"/>
+
+实验结果：
+
+<img src="./Figures/Wang2024b-7.png" alt="Description" width="50%"/>
+
+</details>
+
+
+
 ---
 
 # RUL prediction
 
 
----
+
 
