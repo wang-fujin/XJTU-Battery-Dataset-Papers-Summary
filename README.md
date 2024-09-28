@@ -5,7 +5,7 @@
 
 Chinese document: [Chinese](./README-CH.md)
 
-Last updated🕒: 2024-08-29 😀😀😀  
+Last updated🕒: 2024-09-28 😀😀😀  
 
 **Dataset Links:**
 - [GitHub](https://wang-fujin.github.io/)
@@ -51,6 +51,10 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |  `B2`   |   MMAU-Net    | `AB` |     -     | 1.50%  | 1.04%  |    -    |       -       |  [Fan et al. (2024a)](#fan2024a)  |                                       [link](https://www.mdpi.com/2079-9292/13/16/3244)                                        | ✅ | ❌  |
 |  `B3`   |   MMAU-Net    | `AB` |     -     | 1.04%  | 0.66%  |    -    |       -       |  [Fan et al. (2024a)](#fan2024a)  |                                       [link](https://www.mdpi.com/2079-9292/13/16/3244)                                        | ✅ | ❌  |
 | `B1-B2` |   MSCNN[^1]   | `AB` |     -     | 0.74%  | 0.67%  |  0.37%  |       -       | [Wang et al. (2024b)](#wang2024b) |                                           [link](https://doi.org/10.3390/en17174220)                                           | ✅ | ❌  |
+| `B2b1`  |   ZKF | `AA` | - | 0.0172 | 0.0125 | - | 0.9624 | [Wang et al. (2024c)](#wang2024c) |                 [link](https://ieeexplore.ieee.org/document/10672556)                  | ✅ | ❌  |
+| `B2b4`  |   ZKF | `AA` | - | 0.0167 | 0.0126 | - | 0.9628 | [Wang et al. (2024c)](#wang2024c) |                 [link](https://ieeexplore.ieee.org/document/10672556)                  | ✅ | ❌  |
+| `B2b5`  |   ZKF | `AA` | - | 0.0123 | 0.0079 | - | 0.9824 | [Wang et al. (2024c)](#wang2024c) |                 [link](https://ieeexplore.ieee.org/document/10672556)                  | ✅ | ❌  |
+
 
 
 
@@ -185,6 +189,34 @@ Experimental results:
 
 <img src="./Figures/Wang2024b-7.png" alt="Description" width="50%"/>
 
+
+</details>
+
+
+<details>
+<summary id="wang2024c">
+Wang et al. (2024c)
+</summary>
+
+[Wang Z, Zhao Z, Zhou M, et al. Online Capacity Prediction of Lithium-Ion Batteries Based on Physics-Constrained Zonotopic Kalman Filter[J]. IEEE Transactions on Reliability, 2024.](https://ieeexplore.ieee.org/document/10672556)
+
+The article uses data from 3 batteries in Batch-2, specifically: `B2b1`, `B2b4`, `B2b5`.  
+
+The training and testing mode is `AA`, meaning early data is used for training and later data for testing.  
+
+The `average charging current (ACC)` during the period from $T_1$ to $T_2$ is constructed as an indirect health indicator (HI) to predict battery capacity.
+
+**Results Visualization**:  
+
+<img src="./Figures/Wang2024c-1.png" alt="Description" width="50%"/>
+
+The authors test the estimated results of **different starting points** (with headers: `battery`, `Cycle`, `MAE`, `RMSE`, `R2`):
+
+<img src="./Figures/Wang2024c-2.png" alt="Description" width="50%"/>
+
+The **comparison results** with other methods provided in the article are as follows:
+
+<img src="./Figures/Wang2024c-3.png" alt="Description" width="50%"/>
 
 </details>
 
