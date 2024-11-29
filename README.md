@@ -55,6 +55,11 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `B2b4`  |   ZKF | `AA` | - | 0.0167 | 0.0126 | - | 0.9628 | [Wang et al. (2024c)](#wang2024c) |                 [link](https://ieeexplore.ieee.org/document/10672556)                  | ✅ | ❌  |
 | `B2b5`  |   ZKF | `AA` | - | 0.0123 | 0.0079 | - | 0.9824 | [Wang et al. (2024c)](#wang2024c) |                 [link](https://ieeexplore.ieee.org/document/10672556)                  | ✅ | ❌  |
 | `B1-B3` |  MSFDTN[^1]   | `AB` |   0.22%   |   -    | 3.93%  |    -    | 0.9533 | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
+| `B1-B3` |       DR-Net[^1]       | `AB` |   1.92%   |   -    | 10.49% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
+| `B1-B3` |       AttMoE[^1]       | `AB` |   2.43%   |   -    | 10.63% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
+| `B1-B3` |       ELSTM[^1]        | `AB` |   2.07%   |   -    | 11.20% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
+| `B1-B3` |        MMMe[^1]        | `AB` |   5.53%   |   -    | 18.60% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
+| `B1-B3` | PVA-FFG-Transforme[^1] | `AB` |   6.11%   |   -    | 21.50% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
 
 
 
