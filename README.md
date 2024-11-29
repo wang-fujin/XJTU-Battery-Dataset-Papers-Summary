@@ -72,12 +72,16 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 
 ### Summary of V-Q Prediction Results
 
-| Battery |   Model Name   | Mode |    MSE     |  RMSE   |  MAE   |    MAPE     | R<sup>2</sup> |             Details              | Paper Link | Non-transfer learning | Transfer learning |
-|:-------:|:--------------:|:----:|:----------:|:-------:|:------:|:-----------:|:-------------:|:--------------------------------:|:-----:|:-----:|:-----:|
-| `B1b2` |    PINN    | `AB` |  -  | 14.86e-3 |  -  |  -  | - | [Tang et al. (2024)](#tang2024a) | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
-| `B1b8` |    PINN    | `AB` |  -  | 22.04e-3 |  -  |  -  | - | [Tang et al. (2024)](#tang2024a) | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
-| `B2b2` |    PINN    | `AB` |  -  | 40.95e-3 |  -  |  -  | - | [Tang et al. (2024)](#tang2024a) | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
-| `B2b8` |    PINN    | `AB` |  -  | 37.70e-3 |  -  |  -  | - | [Tang et al. (2024)](#tang2024a) | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+| Battery |   Model Name   | Mode |    MSE     |  RMSE   |  MAE   |    MAPE     | R<sup>2</sup> |              Details              | Paper Link | Non-transfer learning | Transfer learning |
+|:-------:|:--------------:|:----:|:----------:|:-------:|:------:|:-----------:|:-------------:|:---------------------------------:|:-----:|:-----:|:-----:|
+| `B1b2` |    PINN    | `AB` |  -  | 14.86e-3 |  -  |  -  | - | [Tang et al. (2024a)](#tang2024a) | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+| `B1b8` |    PINN    | `AB` |  -  | 22.04e-3 |  -  |  -  | - | [Tang et al. (2024a)](#tang2024a) | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+| `B2b2` |    PINN    | `AB` |  -  | 40.95e-3 |  -  |  -  | - | [Tang et al. (2024a)](#tang2024a) | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+| `B2b8` |    PINN    | `AB` |  -  | 37.70e-3 |  -  |  -  | - | [Tang et al. (2024a)](#tang2024a) | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+|  `B1`   |     -      | `AB` |  -  | 0.046 (max) |  -  |  -  | - | [Tang et al. (2024b)](#tang2024b) | [link](https://doi.org/10.1016/j.etran.2024.100378) |          ✅          |        ❌        |
+|  `B2`   |     -      | `AB` |  -  | 0.055 (max) |  -  |  -  | - | [Tang et al. (2024b)](#tang2024b) | [link](https://doi.org/10.1016/j.etran.2024.100378) |          ✅          |        ❌        |
+
+
 
 ---
 
@@ -281,16 +285,30 @@ The **comparison results** with other methods provided in the article are as fol
 
 <details>
 <summary id="tang2024a">
-Tang et al. (2024)
+Tang et al. (2024a)
 </summary>
 
 [Tang A, Xu Y, Tian J, et al. Physics-informed battery degradation prediction: Forecasting charging curves using one-cycle data[J]. Journal of Energy Chemistry, 2024.](https://doi.org/10.1016/j.jechem.2024.10.018)
-
 
 The task of this article is to predict the charging curve, using one-cycle's V-Q curve to predict the V-Q curve of multiple future cycles.
 The data of Batch-1 and Batch-2 were used for verification.
 In each batch, the data of batteries #1, #3, #4, #5, #6, and #7 are used for training, and the data of #2 and #8 are used for testing.
 The prediction length is 150 cycles.
 
+</details>
+
+
+<details>
+<summary id="tang2024b"> Tang et al. (2024b) </summary>
+[Tang A, Xu Y, Liu P, et al. Deep learning driven battery voltage-capacity curve prediction utilizing short-term relaxation voltage[J]. eTransportation, 2024: 100378.](https://doi.org/10.1016/j.etran.2024.100378)
+
+The article uses the `relaxation voltage` curve to predict the `V-Q curve`, 
+and uses the data of Batch-1 and Batch-2 for verification.
+
+Note that the article only gives the value of `maximum RMSE`, which is 0.046 and 0.055 respectively, and does not give the average value.
+
+**Results Visualization**：
+
+<img src="./Figures/Tang2024b-1.png" alt="Description" width="70%"/>
 
 </details>

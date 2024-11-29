@@ -73,12 +73,14 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 
 ### V-Q 曲线预测结果汇总
 
-| Battery |   Model Name   | Mode |    MSE     |  RMSE   |  MAE   |    MAPE     | R<sup>2</sup> |             Details             | Paper Link | Non-transfer learning | Transfer learning |
-|:-------:|:--------------:|:----:|:----------:|:-------:|:------:|:-----------:|:-------------:|:-------------------------------:|:-----:|:-----:|:-----:|
-| `B1b2` |    PINN    | `AB` |  -  | 14.86e-3 |  -  |  -  | - |      [Tang et al. (2024)](#tang2024a)      | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
-| `B1b8` |    PINN    | `AB` |  -  | 22.04e-3 |  -  |  -  | - |      [Tang et al. (2024)](#tang2024a)      | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
-| `B2b2` |    PINN    | `AB` |  -  | 40.95e-3 |  -  |  -  | - |      [Tang et al. (2024)](#tang2024a)      | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
-| `B2b8` |    PINN    | `AB` |  -  | 37.70e-3 |  -  |  -  | - |      [Tang et al. (2024)](#tang2024a)      | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+| Battery | Model Name | Mode |    MSE     |    RMSE     |  MAE   |    MAPE     | R<sup>2</sup> |              Details              | Paper Link | Non-transfer learning | Transfer learning |
+|:-------:|:----------:|:----:|:----------:|:-----------:|:------:|:-----------:|:-------------:|:---------------------------------:|:-----:|:-----:|:-----:|
+| `B1b2`  |    PINN    | `AB` |  -  |  14.86e-3   |  -  |  -  | - | [Tang et al. (2024a)](#tang2024a) | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+| `B1b8`  |    PINN    | `AB` |  -  |  22.04e-3   |  -  |  -  | - | [Tang et al. (2024a)](#tang2024a) | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+| `B2b2`  |    PINN    | `AB` |  -  |  40.95e-3   |  -  |  -  | - | [Tang et al. (2024a)](#tang2024a) | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+| `B2b8`  |    PINN    | `AB` |  -  |  37.70e-3   |  -  |  -  | - | [Tang et al. (2024a)](#tang2024a) | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+|  `B1`   |     -      | `AB` |  -  | 0.046 (max) |  -  |  -  | - | [Tang et al. (2024b)](#tang2024b) | [link](https://doi.org/10.1016/j.etran.2024.100378) |          ✅          |        ❌        |
+|  `B2`   |     -      | `AB` |  -  | 0.055 (max) |  -  |  -  | - | [Tang et al. (2024b)](#tang2024b) | [link](https://doi.org/10.1016/j.etran.2024.100378) |          ✅          |        ❌        |
 
 ---
 
@@ -276,7 +278,7 @@ Wang et al. (2024d)
 
 <details>
 <summary id="tang2024a">
-Tang et al. (2024)
+Tang et al. (2024a)
 </summary>
 
 [Tang A, Xu Y, Tian J, et al. Physics-informed battery degradation prediction: Forecasting charging curves using one-cycle data[J]. Journal of Energy Chemistry, 2024.](https://doi.org/10.1016/j.jechem.2024.10.018)
@@ -286,6 +288,20 @@ Tang et al. (2024)
 每个Batch中，电池#1，#3，#4，#5，#6，#7的数据用来训练，#2，#8的数据用来测试。
 预测长度为150个cycle。
 
+</details>
+
+
+<details>
+<summary id="tang2024b"> Tang et al. (2024b) </summary>
+[Tang A, Xu Y, Liu P, et al. Deep learning driven battery voltage-capacity curve prediction utilizing short-term relaxation voltage[J]. eTransportation, 2024: 100378.](https://doi.org/10.1016/j.etran.2024.100378)
+
+文章利用驰豫电压曲线来预测V-Q曲线，用了Batch-1和Batch-2的数据来验证。
+
+注意，文章只给出了`最大RMSE`的值，分别为0.046和0.055，并没有给出平均值。
+
+**结果可视化**：
+
+<img src="./Figures/Tang2024b-1.png" alt="Description" width="70%"/>
 
 
 </details>
