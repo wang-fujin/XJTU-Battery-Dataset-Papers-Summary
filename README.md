@@ -309,6 +309,7 @@ The prediction length is 150 cycles.
 
 <details>
 <summary id="tang2024b"> Tang et al. (2024b) </summary>
+
 [Tang A, Xu Y, Liu P, et al. Deep learning driven battery voltage-capacity curve prediction utilizing short-term relaxation voltage[J]. eTransportation, 2024: 100378.](https://doi.org/10.1016/j.etran.2024.100378)
 
 The article uses the `relaxation voltage` curve to predict the `V-Q curve`, 

@@ -303,6 +303,7 @@ Tang et al. (2024a)
 
 <details>
 <summary id="tang2024b"> Tang et al. (2024b) </summary>
+
 [Tang A, Xu Y, Liu P, et al. Deep learning driven battery voltage-capacity curve prediction utilizing short-term relaxation voltage[J]. eTransportation, 2024: 100378.](https://doi.org/10.1016/j.etran.2024.100378)
 
 文章利用驰豫电压曲线来预测V-Q曲线，用了Batch-1和Batch-2的数据来验证。
