@@ -5,7 +5,7 @@
 
 Chinese document: [Chinese](./README-CH.md)
 
-Last updated🕒: 2024-09-28 😀😀😀  
+Last updated🕒: 2024-11-28 😀😀😀  
 
 **Dataset Links:**
 - [GitHub](https://wang-fujin.github.io/)
@@ -54,6 +54,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `B2b1`  |   ZKF | `AA` | - | 0.0172 | 0.0125 | - | 0.9624 | [Wang et al. (2024c)](#wang2024c) |                 [link](https://ieeexplore.ieee.org/document/10672556)                  | ✅ | ❌  |
 | `B2b4`  |   ZKF | `AA` | - | 0.0167 | 0.0126 | - | 0.9628 | [Wang et al. (2024c)](#wang2024c) |                 [link](https://ieeexplore.ieee.org/document/10672556)                  | ✅ | ❌  |
 | `B2b5`  |   ZKF | `AA` | - | 0.0123 | 0.0079 | - | 0.9824 | [Wang et al. (2024c)](#wang2024c) |                 [link](https://ieeexplore.ieee.org/document/10672556)                  | ✅ | ❌  |
+| `B1-B3` |  MSFDTN[^1]   | `AB` |   0.22%   |   -    | 3.93%  |    -    | 0.9533 | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
 
 
 
@@ -68,6 +69,19 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |:-------:|:--------------:|:----:|:----------:|:-------:|:------:|:-----------:|:-------------:|:-------------------------------:|:-----:|:-----:|:-----:|
 
 ---
+
+### Summary of V-Q Prediction Results
+
+| Battery |   Model Name   | Mode |    MSE     |  RMSE   |  MAE   |    MAPE     | R<sup>2</sup> |             Details              | Paper Link | Non-transfer learning | Transfer learning |
+|:-------:|:--------------:|:----:|:----------:|:-------:|:------:|:-----------:|:-------------:|:--------------------------------:|:-----:|:-----:|:-----:|
+| `B1b2` |    PINN    | `AB` |  -  | 14.86e-3 |  -  |  -  | - | [Tang et al. (2024)](#tang2024a) | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+| `B1b8` |    PINN    | `AB` |  -  | 22.04e-3 |  -  |  -  | - | [Tang et al. (2024)](#tang2024a) | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+| `B2b2` |    PINN    | `AB` |  -  | 40.95e-3 |  -  |  -  | - | [Tang et al. (2024)](#tang2024a) | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+| `B2b8` |    PINN    | `AB` |  -  | 37.70e-3 |  -  |  -  | - | [Tang et al. (2024)](#tang2024a) | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+
+---
+
+
 
 # SOH Estimation
 
@@ -222,9 +236,61 @@ The **comparison results** with other methods provided in the article are as fol
 
 
 
+
+<details>
+<summary id="wang2024d">
+Wang et al. (2024d)
+</summary>
+
+[Wang C, Wu J, Yang Y, et al. Multi-scale self-attention feature decoupling transfer network-based cross-domain capacity prediction of lithium-ion batteries[J]. Journal of Energy Storage, 2024, 103: 114286.](https://doi.org/10.1016/j.est.2024.114286)
+
+The article uses the battery of Batch-1, the first 8 of Batch-2 and Batch-3 to verify the proposed method, which are: `B1-B3`.
+The task is to use the transfer learning method to predict the `capacity` of the battery;
+The 3 Batchs represent 3 domains, which are represented as D1, D2, and D3 in the article.
+
+
+**Results Visualization**：
+<img src="./Figures/Wang2024d-1.jpg" alt="Description" width="50%"/>
+
+
+The **comparison results** with other methods provided in the article are as follows:
+<img src="./Figures/Wang2024d-2.png" alt="Description" width="70%"/>
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 # RUL Prediction
 
+---
+
+# Other Tasks
+
+<details>
+<summary id="tang2024a">
+Tang et al. (2024)
+</summary>
+
+[Tang A, Xu Y, Tian J, et al. Physics-informed battery degradation prediction: Forecasting charging curves using one-cycle data[J]. Journal of Energy Chemistry, 2024.](https://doi.org/10.1016/j.jechem.2024.10.018)
 
 
+The task of this article is to predict the charging curve, using one-cycle's V-Q curve to predict the V-Q curve of multiple future cycles.
+The data of Batch-1 and Batch-2 were used for verification.
+In each batch, the data of batteries #1, #3, #4, #5, #6, and #7 are used for training, and the data of #2 and #8 are used for testing.
+The prediction length is 150 cycles.
+
+
+</details>
