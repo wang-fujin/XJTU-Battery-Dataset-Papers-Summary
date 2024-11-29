@@ -70,6 +70,20 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 
 ---
 
+### V-Q 曲线预测结果汇总
+
+| Battery |   Model Name   | Mode |    MSE     |  RMSE   |  MAE   |    MAPE     | R<sup>2</sup> |             Details             | Paper Link | Non-transfer learning | Transfer learning |
+|:-------:|:--------------:|:----:|:----------:|:-------:|:------:|:-----------:|:-------------:|:-------------------------------:|:-----:|:-----:|:-----:|
+| `B1b2` |    PINN    | `AB` |  -  | 14.86e-3 |  -  |  -  | - |      [Tang et al. (2024)](#tang2024a)      | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+| `B1b8` |    PINN    | `AB` |  -  | 22.04e-3 |  -  |  -  | - |      [Tang et al. (2024)](#tang2024a)      | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+| `B2b2` |    PINN    | `AB` |  -  | 40.95e-3 |  -  |  -  | - |      [Tang et al. (2024)](#tang2024a)      | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+| `B2b8` |    PINN    | `AB` |  -  | 37.70e-3 |  -  |  -  | - |      [Tang et al. (2024)](#tang2024a)      | [link](https://doi.org/10.1016/j.jechem.2024.10.018) |          ✅          |        ❌        |
+
+---
+
+
+
+
 # SOH estimation
 
 
@@ -218,10 +232,60 @@ Wang et al. (2024c)
 </details>
 
 
+
+<details>
+<summary id="wang2024d">
+Wang et al. (2024d)
+</summary>
+
+[Wang C, Wu J, Yang Y, et al. Multi-scale self-attention feature decoupling transfer network-based cross-domain capacity prediction of lithium-ion batteries[J]. Journal of Energy Storage, 2024, 103: 114286.](https://doi.org/10.1016/j.est.2024.114286)
+
+文章使用了Batch-1、Batch-2的前8个和Batch-3的电池数据来验证提出的方法，分别为：`B1-B3`。
+任务是使用迁移学习方法来预测电池的`容量`；
+3个Batch分别表示3个域，文中表示为D1、D2、D3。
+
+
+**结果可视化**：
+
+<img src="./Figures/Wang2024d-1.jpg" alt="Description" width="50%"/>
+
+
+文章给出的与其他**方法对比**的结果如下：
+
+<img src="./Figures/Wang2024d-2.png" alt="Description" width="70%"/>
+
+</details>
+
+
+
+
+
+
+
+
+
+
 ---
 
 # RUL prediction
 
+---
+
+# 其他任务
+
+<details>
+<summary id="tang2024a">
+Tang et al. (2024)
+</summary>
+
+[Tang A, Xu Y, Tian J, et al. Physics-informed battery degradation prediction: Forecasting charging curves using one-cycle data[J]. Journal of Energy Chemistry, 2024.](https://doi.org/10.1016/j.jechem.2024.10.018)
+
+文章所做的任务是预测充电曲线，用一个cycle的CC阶段的V-Q预测来预测未来多个cycle的V-Q曲线。
+用了Batch-1和Batch-2的数据来验证。
+每个Batch中，电池#1，#3，#4，#5，#6，#7的数据用来训练，#2，#8的数据用来测试。
+预测长度为150个cycle。
 
 
+
+</details>
 
