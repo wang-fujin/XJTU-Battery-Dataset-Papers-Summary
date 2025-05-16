@@ -50,23 +50,23 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |  `All`  |         GRU[^1]         | `AB` | 0.0000983 |    -    | 0.0071 | 0.00776 |    0.9503     | [Wang et al. (2024a)](#wang2024a) |                     [link](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub)                     | ✅ | ❌  |
 |  `All`  |         MLP[^1]         | `AB` | 0.000139  |    -    | 0.0078 | 0.00844 |    0.9331     | [Wang et al. (2024a)](#wang2024a) |                     [link](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub)                     | ✅ | ❌  |
 |  `All`  |      Attention[^1]      | `AB` | 0.000135  |    -    | 0.0087 | 0.00950 |    0.9317     | [Wang et al. (2024a)](#wang2024a) |                     [link](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub)                     | ✅ | ❌  |
-|  `B1`   |        MMAU-Net         | `AB` |     -     |  1.40%  | 1.02%  |   -     |       -       |  [Fan et al. (2024a)](#fan2024a)  |                                       [link](https://www.mdpi.com/2079-9292/13/16/3244)                                        | ✅ | ❌  |
+|  `B1`   |        MMAU-Net         | `AB` |     -     |  1.40%  | 1.02%  |    -    |       -       |  [Fan et al. (2024a)](#fan2024a)  |                                       [link](https://www.mdpi.com/2079-9292/13/16/3244)                                        | ✅ | ❌  |
 |  `B2`   |        MMAU-Net         | `AB` |     -     |  1.50%  | 1.04%  |    -    |       -       |  [Fan et al. (2024a)](#fan2024a)  |                                       [link](https://www.mdpi.com/2079-9292/13/16/3244)                                        | ✅ | ❌  |
 |  `B3`   |        MMAU-Net         | `AB` |     -     |  1.04%  | 0.66%  |    -    |       -       |  [Fan et al. (2024a)](#fan2024a)  |                                       [link](https://www.mdpi.com/2079-9292/13/16/3244)                                        | ✅ | ❌  |
 | `B1-B2` |        MSCNN[^1]        | `AB` |     -     |  0.74%  | 0.67%  |  0.37%  |       -       | [Wang et al. (2024b)](#wang2024b) |                                           [link](https://doi.org/10.3390/en17174220)                                           | ✅ | ❌  |
-| `B2b1`  |           ZKF           | `AA` |     -     | 0.0172  | 0.0125 | - |    0.9624     | [Wang et al. (2024c)](#wang2024c) |                 [link](https://ieeexplore.ieee.org/document/10672556)                  | ✅ | ❌  |
-| `B2b4`  |           ZKF           | `AA` |     -     | 0.0167  | 0.0126 | - |    0.9628     | [Wang et al. (2024c)](#wang2024c) |                 [link](https://ieeexplore.ieee.org/document/10672556)                  | ✅ | ❌  |
-| `B2b5`  |           ZKF           | `AA` |     -     | 0.0123  | 0.0079 | - |    0.9824     | [Wang et al. (2024c)](#wang2024c) |                 [link](https://ieeexplore.ieee.org/document/10672556)                  | ✅ | ❌  |
+| `B2b1`  |           ZKF           | `AA` |     -     | 0.0172  | 0.0125 |    -    |    0.9624     | [Wang et al. (2024c)](#wang2024c) |                 [link](https://ieeexplore.ieee.org/document/10672556)                  | ✅ | ❌  |
+| `B2b4`  |           ZKF           | `AA` |     -     | 0.0167  | 0.0126 |    -    |    0.9628     | [Wang et al. (2024c)](#wang2024c) |                 [link](https://ieeexplore.ieee.org/document/10672556)                  | ✅ | ❌  |
+| `B2b5`  |           ZKF           | `AA` |     -     | 0.0123  | 0.0079 |    -    |    0.9824     | [Wang et al. (2024c)](#wang2024c) |                 [link](https://ieeexplore.ieee.org/document/10672556)                  | ✅ | ❌  |
 | `B1-B3` |       MSFDTN[^1]        | `AB` |   0.22%   |    -    | 3.93%  |    -    |    0.9533     | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
 | `B1-B3` |       DR-Net[^1]        | `AB` |   1.92%   |    -    | 10.49% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
 | `B1-B3` |       AttMoE[^1]        | `AB` |   2.43%   |    -    | 10.63% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
 | `B1-B3` |        ELSTM[^1]        | `AB` |   2.07%   |    -    | 11.20% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
 | `B1-B3` |        MMMe[^1]         | `AB` |   5.53%   |    -    | 18.60% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
 | `B1-B3` | PVA-FFG-Transformer[^1] | `AB` |   6.11%   |    -    | 21.50% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
-|  `B1`   | GJO-SNuSVR[^1] | `AB` | - | 0.0048  | - | 0.0041 |       -       | [Liu  et al. (2025a)](#liu2025a)  | [link](https://doi.org/10.1016/j.est.2024.114822) |          ✅         |       ❌         |
-|  `B2`   | EVO-LSSVM | `AB` | - | 0.4939% | - | - |    0.9915     | [Liu  et al. (2025b)](#liu2025b)  | [link](https://doi.org/10.1016/j.measurement.2024.116620) |          ✅         |       ❌         |
-|  `B3`   | EVO-LSSVM | `AB` | - | 0.4018% | - | - |    0.9947     | [Liu  et al. (2025b)](#liu2025b)  | [link](https://doi.org/10.1016/j.measurement.2024.116620) |          ✅         |       ❌         |
-
+|  `B1`   | GJO-SNuSVR[^1] | `AB` | - | 0.0048  |   -    | 0.0041  |       -       | [Liu  et al. (2025a)](#liu2025a)  | [link](https://doi.org/10.1016/j.est.2024.114822) |          ✅         |       ❌         |
+|  `B2`   | EVO-LSSVM | `AB` | - | 0.4939% |   -    |    -    |    0.9915     | [Liu  et al. (2025b)](#liu2025b)  | [link](https://doi.org/10.1016/j.measurement.2024.116620) |          ✅         |       ❌         |
+|  `B3`   | EVO-LSSVM | `AB` | - | 0.4018% |   -    |    -    |    0.9947     | [Liu  et al. (2025b)](#liu2025b)  | [link](https://doi.org/10.1016/j.measurement.2024.116620) |          ✅         |       ❌         |
+| `B1b3`  | BiGRU-Attention | `AA` | - | 0.8611  | 0.6522 |    -    |       -       | [Sun et al. (2025a)](#sun2025a)  | [link](https://doi.org/10.1016/j.energy.2025.134756) |          ✅         |       ❌         |
 
 
 [^1]: 表格中的MSE，RMSE，MAE，MAPE都是所有电池的平均值。
@@ -321,7 +321,29 @@ Liu et al. (2025b)
 </details>
 
 
+<details>
+<summary id="sun2025a">
+Sun et al. (2025a)
+</summary>
 
+[Sun R, Chen J, Li B, et al. State of health estimation for Lithium-ion batteries based on novel feature extraction and BiGRU-Attention model[J]. Energy, 2025: 134756.](https://doi.org/10.1016/j.energy.2025.134756)
+
+
+文章使用了Batch-1的第3个电池数据来验证提出的BiGRU-Attention模型，记为`B1b3`；
+任务是SOH估计；
+
+数据划分方式为`AA`，即用早期的数据训练，后期的数据测试；
+
+文章进行了两种划分：60%的训练集和40%的测试集，70%的训练集和30%的测试集。
+
+**结果可视化**：
+
+<img src="./Figures/Sun2025a-2.png" alt="Description" width="70%"/>
+
+文章给出的与其他**方法对比**的结果如下：
+
+<img src="./Figures/Sun2025a-1.png" alt="Description" width="70%"/>
+</details>
 
 
 ---

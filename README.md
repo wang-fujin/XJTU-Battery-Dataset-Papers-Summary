@@ -63,6 +63,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |  `B1`   | GJO-SNuSVR[^1] | `AB` | - | 0.0048 | - | 0.0041 | - | [Liu  et al. (2025a)](#liu2025a)  | [link](https://doi.org/10.1016/j.est.2024.114822) |          ✅         |       ❌         |
 |  `B2`   | EVO-LSSVM | `AB` | - | 0.4939% | - | - |    0.9915     | [Liu  et al. (2025b)](#liu2025b)  | [link](https://doi.org/10.1016/j.measurement.2024.116620) |          ✅         |       ❌         |
 |  `B3`   | EVO-LSSVM | `AB` | - | 0.4018% | - | - |    0.9947     | [Liu  et al. (2025b)](#liu2025b)  | [link](https://doi.org/10.1016/j.measurement.2024.116620) |          ✅         |       ❌         |
+| `B1b3`  | BiGRU-Attention | `AA` | - | 0.8611  | 0.6522 |    -    |       -       | [Sun et al. (2025a)](#sun2025a)  | [link](https://doi.org/10.1016/j.energy.2025.134756) |          ✅         |       ❌         |
 
 
 
@@ -333,6 +334,29 @@ The **comparison results** with other methods provided in this paper are as foll
 </details>
 
 
+<details>
+<summary id="sun2025a">
+Sun et al. (2025a)
+</summary>
+
+[Sun R, Chen J, Li B, et al. State of health estimation for Lithium-ion batteries based on novel feature extraction and BiGRU-Attention model[J]. Energy, 2025: 134756.](https://doi.org/10.1016/j.energy.2025.134756)
+
+
+This paper uses the battery 3 of Batch-1 to verify the proposed BiGRU-Attention model, denoted as `B1b3`;
+The task is SOH estimation;
+
+The data division method is `AA`, that is, early data is used for training and later data is used for testing;
+The author makes two splitting methods: 6:4 and 7:3.
+
+**Results Visualization**：
+
+<img src="./Figures/Sun2025a-2.png" alt="Description" width="70%"/>
+
+The **comparison results** with other methods provided in this paper are as follows:
+
+
+<img src="./Figures/Sun2025a-1.png" alt="Description" width="70%"/>
+</details>
 
 
 
