@@ -5,7 +5,7 @@
 
 Chinese document: [Chinese](./README-CH.md)
 
-Last updated🕒: 2024-11-28 😀😀😀  
+Last updated🕒: 2025-05-16 😀😀😀  
 
 **Dataset Links:**
 - [GitHub](https://wang-fujin.github.io/)
@@ -60,6 +60,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `B1-B3` |        ELSTM[^1]        | `AB` |   2.07%   |   -    | 11.20% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
 | `B1-B3` |        MMMe[^1]         | `AB` |   5.53%   |   -    | 18.60% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
 | `B1-B3` | PVA-FFG-Transformer[^1] | `AB` |   6.11%   |   -    | 21.50% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
+| `B1` | GJO-SNuSVR[^1] | `AB` | - | 0.0048 | - | 0.0041 | - | [Liu  et al. (2025a)](#liu2025a)  | [link](https://doi.org/10.1016/j.est.2024.114822) |          ✅         |       ❌         |
 
 
 
@@ -280,6 +281,29 @@ The **comparison results** with other methods provided in the article are as fol
 
 
 
+<details>
+<summary id="liu2025a">
+Liu et al. (2025a)
+</summary>
+
+[Liu Y, Ding J, Cai Y, et al. A battery SOH estimation method based on entropy domain features and semi-supervised learning under limited sample conditions[J]. Journal of Energy Storage, 2025, 106: 114822.](https://doi.org/10.1016/j.est.2024.114822)
+
+This paper uses the first 7 battery data of Batch-1 to verify the proposed GJO-SNuSVR method;
+The task is SOH estimation;
+
+
+
+**Results Visualization**：
+
+<img src="./Figures/Liu2025a-1.png" alt="Description" width="50%"/>
+
+
+The **comparison results** with other methods provided in the article are as follows:
+
+<img src="./Figures/Liu2025a-2.png" alt="Description" width="70%"/>
+
+</details>
+
 
 
 
@@ -305,7 +329,7 @@ The **comparison results** with other methods provided in the article are as fol
 Wang et al. (2025a)
 </summary>
 
-[Enhanced state of charge estimation in lithium-ion batteries based on Time-Frequency-Net with time-domain and frequency-domain features](https://doi.org/10.1016/j.energy.2025.134722)
+[Wang X, Yi Y, Yuan Y, et al. Enhanced state of charge estimation in lithium-ion batteries based on Time-Frequency-Net with time-domain and frequency-domain features[J]. Energy, 2025: 134722.](https://doi.org/10.1016/j.energy.2025.134722)
 
 
 This paper uses the battery data of Batch-1 and Batch-3 to verify the proposed TFN method.

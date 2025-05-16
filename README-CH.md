@@ -6,7 +6,7 @@
 
 English document: [English](./README.md)
 
-最近更新🕒：2024-11-28 😀😀😀
+最近更新🕒：2024-05-16 😀😀😀
 
 
 **数据集链接：**
@@ -50,7 +50,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |  `All`  |         GRU[^1]         | `AB` | 0.0000983 |   -    | 0.0071 | 0.00776 |    0.9503     | [Wang et al. (2024a)](#wang2024a) |                     [link](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub)                     | ✅ | ❌  |
 |  `All`  |         MLP[^1]         | `AB` | 0.000139  |   -    | 0.0078 | 0.00844 |    0.9331     | [Wang et al. (2024a)](#wang2024a) |                     [link](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub)                     | ✅ | ❌  |
 |  `All`  |      Attention[^1]      | `AB` | 0.000135  |   -    | 0.0087 | 0.00950 |    0.9317     | [Wang et al. (2024a)](#wang2024a) |                     [link](https://www.sciencedirect.com/science/article/pii/S2352152X23032826?via%3Dihub)                     | ✅ | ❌  |
-|  `B1`   |        MMAU-Net         | `AB` |     -     | 1.40%  | 1.02%  |   -     |       -       | [Fan et al. (2024a)](#fan2024a)   |                                       [link](https://www.mdpi.com/2079-9292/13/16/3244)                                        | ✅ | ❌  |
+|  `B1`   |        MMAU-Net         | `AB` |     -     | 1.40%  | 1.02%  |   -     |       -       |  [Fan et al. (2024a)](#fan2024a)  |                                       [link](https://www.mdpi.com/2079-9292/13/16/3244)                                        | ✅ | ❌  |
 |  `B2`   |        MMAU-Net         | `AB` |     -     | 1.50%  | 1.04%  |    -    |       -       |  [Fan et al. (2024a)](#fan2024a)  |                                       [link](https://www.mdpi.com/2079-9292/13/16/3244)                                        | ✅ | ❌  |
 |  `B3`   |        MMAU-Net         | `AB` |     -     | 1.04%  | 0.66%  |    -    |       -       |  [Fan et al. (2024a)](#fan2024a)  |                                       [link](https://www.mdpi.com/2079-9292/13/16/3244)                                        | ✅ | ❌  |
 | `B1-B2` |        MSCNN[^1]        | `AB` |     -     | 0.74%  | 0.67%  |  0.37%  |       -       | [Wang et al. (2024b)](#wang2024b) |                                           [link](https://doi.org/10.3390/en17174220)                                           | ✅ | ❌  |
@@ -63,7 +63,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `B1-B3` |        ELSTM[^1]        | `AB` |   2.07%   |   -    | 11.20% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
 | `B1-B3` |        MMMe[^1]         | `AB` |   5.53%   |   -    | 18.60% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
 | `B1-B3` | PVA-FFG-Transformer[^1] | `AB` |   6.11%   |   -    | 21.50% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
-
+| `B1` | GJO-SNuSVR[^1] | `AB` | - | 0.0048 | - | 0.0041 | - | [Liu  et al. (2025a)](#liu2025a)  | [link](https://doi.org/10.1016/j.est.2024.114822) |          ✅         |       ❌         |
 
 
 [^1]: 表格中的MSE，RMSE，MAE，MAPE都是所有电池的平均值。
@@ -269,7 +269,28 @@ Wang et al. (2024d)
 </details>
 
 
+<details>
+<summary id="liu2025a">
+Liu et al. (2025a)
+</summary>
 
+[Liu Y, Ding J, Cai Y, et al. A battery SOH estimation method based on entropy domain features and semi-supervised learning under limited sample conditions[J]. Journal of Energy Storage, 2025, 106: 114822.](https://doi.org/10.1016/j.est.2024.114822)
+
+文章使用了Batch-1的前7个电池数据来验证提出的GJO-SNuSVR方法；
+任务是SOH估计；
+
+
+
+**结果可视化**：
+
+<img src="./Figures/Liu2025a-1.png" alt="Description" width="50%"/>
+
+
+文章给出的与其他**方法对比**的结果如下：
+
+<img src="./Figures/Liu2025a-2.png" alt="Description" width="70%"/>
+
+</details>
 
 
 
@@ -290,7 +311,7 @@ Wang et al. (2024d)
 Wang et al. (2025a)
 </summary>
 
-[Enhanced state of charge estimation in lithium-ion batteries based on Time-Frequency-Net with time-domain and frequency-domain features](https://doi.org/10.1016/j.energy.2025.134722)
+[Wang X, Yi Y, Yuan Y, et al. Enhanced state of charge estimation in lithium-ion batteries based on Time-Frequency-Net with time-domain and frequency-domain features[J]. Energy, 2025: 134722.](https://doi.org/10.1016/j.energy.2025.134722)
 
 
 文章使用了Batch-1和Batch-3的电池数据来验证提出的TFN方法。
