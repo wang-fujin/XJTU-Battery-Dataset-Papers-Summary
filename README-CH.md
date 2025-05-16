@@ -88,9 +88,13 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |  `B2`   |     -      | `AB` |  -  | 0.055 (max) |  -  |  -  | - | [Tang et al. (2024b)](#tang2024b) | [link](https://doi.org/10.1016/j.etran.2024.100378) |          ✅          |        ❌        |
 
 ---
+### SOC预测结果汇总
+| Battery | Model Name | Mode |    MSE     | RMSE  |  MAE  | MAPE  | R<sup>2</sup> |              Details              | Paper Link | Non-transfer learning | Transfer learning |
+|:-------:|:----------:|:----:|:----------:|:-----:|:-----:|:-----:|:-------------:|:---------------------------------:|:-----:|:-----:|:-----:|
+| `B1` |    TFN     | `AB` |  -  | 0.78% | 0.61% | 2.70% | - | [Wang et al. (2025a)](#wang2025a) | [link](https://doi.org/10.1016/j.energy.2025.134722) |          ✅          |        ❌        |
+|`B3` |    TFN     | `AB` |  -  | 2.27% | 1.90% | 5.47% | - | [Wang et al. (2025a)](#wang2025a) | [link](https://doi.org/10.1016/j.energy.2025.134722) |          ✅          |        ❌        |
 
-
-
+---
 
 # SOH estimation
 
@@ -278,6 +282,41 @@ Wang et al. (2024d)
 # RUL prediction
 
 ---
+
+# SOC estimation
+
+<details>
+<summary id="wang2025a">
+Wang et al. (2025a)
+</summary>
+
+[Enhanced state of charge estimation in lithium-ion batteries based on Time-Frequency-Net with time-domain and frequency-domain features](https://doi.org/10.1016/j.energy.2025.134722)
+
+
+文章使用了Batch-1和Batch-3的电池数据来验证提出的TFN方法。
+任务是SOC估计；
+
+
+
+**Batch-3结果可视化**：
+
+<img src="./Figures/Wang2025a-1.jpg" alt="Description" width="50%"/>
+
+Batch-3结果表格：
+
+<img src="./Figures/Wang2025a-2.png" alt="Description" width="70%"/>
+
+Batch-1结果表格：
+
+<img src="./Figures/Wang2025a-3.png" alt="Description" width="70%"/>
+
+
+
+
+</details>
+
+---
+
 
 # 其他任务
 

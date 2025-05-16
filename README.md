@@ -90,6 +90,16 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 
 ---
 
+---
+### Summary of SOC Estimation Results
+| Battery | Model Name | Mode |    MSE     | RMSE  |  MAE  | MAPE  | R<sup>2</sup> |              Details              | Paper Link | Non-transfer learning | Transfer learning |
+|:-------:|:----------:|:----:|:----------:|:-----:|:-----:|:-----:|:-------------:|:---------------------------------:|:-----:|:-----:|:-----:|
+| `B1` |    TFN     | `AB` |  -  | 0.78% | 0.61% | 2.70% | - | [Wang et al. (2025a)](#wang2025a) | [link](https://doi.org/10.1016/j.energy.2025.134722) |          ✅          |        ❌        |
+|`B3` |    TFN     | `AB` |  -  | 2.27% | 1.90% | 5.47% | - | [Wang et al. (2025a)](#wang2025a) | [link](https://doi.org/10.1016/j.energy.2025.134722) |          ✅          |        ❌        |
+
+---
+
+
 
 
 # SOH Estimation
@@ -285,6 +295,45 @@ The **comparison results** with other methods provided in the article are as fol
 # RUL Prediction
 
 ---
+
+
+
+# SOC estimation
+
+<details>
+<summary id="wang2025a">
+Wang et al. (2025a)
+</summary>
+
+[Enhanced state of charge estimation in lithium-ion batteries based on Time-Frequency-Net with time-domain and frequency-domain features](https://doi.org/10.1016/j.energy.2025.134722)
+
+
+This paper uses the battery data of Batch-1 and Batch-3 to verify the proposed TFN method.
+The task is SOC estimation;
+
+
+
+**Batch-3 Results Visualization**：
+
+<img src="./Figures/Wang2025a-1.jpg" alt="Description" width="50%"/>
+
+The Table of Batch-3 results：
+
+<img src="./Figures/Wang2025a-2.png" alt="Description" width="70%"/>
+
+The Table of Batch-1 results：
+
+<img src="./Figures/Wang2025a-3.png" alt="Description" width="70%"/>
+
+
+
+
+</details>
+
+---
+
+
+
 
 # Other Tasks
 
