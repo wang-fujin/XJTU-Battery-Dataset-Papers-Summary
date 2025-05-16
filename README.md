@@ -60,7 +60,9 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `B1-B3` |        ELSTM[^1]        | `AB` |   2.07%   |   -    | 11.20% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
 | `B1-B3` |        MMMe[^1]         | `AB` |   5.53%   |   -    | 18.60% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
 | `B1-B3` | PVA-FFG-Transformer[^1] | `AB` |   6.11%   |   -    | 21.50% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
-| `B1` | GJO-SNuSVR[^1] | `AB` | - | 0.0048 | - | 0.0041 | - | [Liu  et al. (2025a)](#liu2025a)  | [link](https://doi.org/10.1016/j.est.2024.114822) |          ✅         |       ❌         |
+|  `B1`   | GJO-SNuSVR[^1] | `AB` | - | 0.0048 | - | 0.0041 | - | [Liu  et al. (2025a)](#liu2025a)  | [link](https://doi.org/10.1016/j.est.2024.114822) |          ✅         |       ❌         |
+|  `B2`   | EVO-LSSVM | `AB` | - | 0.4939% | - | - |    0.9915     | [Liu  et al. (2025b)](#liu2025b)  | [link](https://doi.org/10.1016/j.measurement.2024.116620) |          ✅         |       ❌         |
+|  `B3`   | EVO-LSSVM | `AB` | - | 0.4018% | - | - |    0.9947     | [Liu  et al. (2025b)](#liu2025b)  | [link](https://doi.org/10.1016/j.measurement.2024.116620) |          ✅         |       ❌         |
 
 
 
@@ -306,6 +308,29 @@ The **comparison results** with other methods provided in the article are as fol
 
 
 
+<details>
+<summary id="liu2025b">
+Liu et al. (2025b)
+</summary>
+
+[Liu Y, Ding J, Yao L, et al. A novel high-accuracy intelligent estimation method for battery state of health[J]. Measurement, 2025, 245: 116620.](https://doi.org/10.1016/j.measurement.2024.116620)
+
+
+This paper uses Batch-1 dataset to train the proposed EVO_LSSVM model and tests it on Batch-2 and Batch3 dataset;
+The task is SOH estimation;
+
+
+
+**Results Visualization**：
+
+<img src="./Figures/Liu2025b-2.png" alt="Description" width="50%"/>
+<img src="./Figures/Liu2025b-3.png" alt="Description" width="50%"/>
+
+The **comparison results** with other methods provided in this paper are as follows:
+
+<img src="./Figures/Liu2025b-1.png" alt="Description" width="70%"/>
+
+</details>
 
 
 
