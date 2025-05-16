@@ -64,7 +64,9 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |  `B2`   | EVO-LSSVM | `AB` | - | 0.4939% | - | - |    0.9915     | [Liu  et al. (2025b)](#liu2025b)  | [link](https://doi.org/10.1016/j.measurement.2024.116620) |          ✅         |       ❌         |
 |  `B3`   | EVO-LSSVM | `AB` | - | 0.4018% | - | - |    0.9947     | [Liu  et al. (2025b)](#liu2025b)  | [link](https://doi.org/10.1016/j.measurement.2024.116620) |          ✅         |       ❌         |
 | `B1b3`  | BiGRU-Attention | `AA` | - | 0.8611  | 0.6522 |    -    |       -       | [Sun et al. (2025a)](#sun2025a)  | [link](https://doi.org/10.1016/j.energy.2025.134756) |          ✅         |       ❌         |
-
+|  `B1`   |      BatteryPINN [^1]      | `AB` | - | 0.5671% |   -    | 0.3443% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
+|  `B2`   |      BatteryPINN [^1]      | `AB` | - | 0.2900% |   -    | 0.2014% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
+|  `B3`   |      BatteryPINN [^1]      | `AB` | - | 0.7193% |   -    | 0.5817% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
 
 
 
@@ -359,7 +361,33 @@ The **comparison results** with other methods provided in this paper are as foll
 </details>
 
 
+<details>
+<summary id="liu2025c">
+Liu et al. (2025c)
+</summary>
 
+[Liu Y, Chen H, Yao L, et al. A physics-guided approach for accurate battery SOH estimation using RCMHCRE and BatteryPINN[J]. Advanced Engineering Informatics, 2025, 65: 103211.](https://doi.org/10.1016/j.aei.2025.103211)
+
+This paper uses Batch-1 to Batch-3 dataset to verify the proposed BatteryPINN method;
+
+**Results Visualization**：
+
+<img src="./Figures/Liu2025c-1.png" alt="Description" width="50%"/>
+
+Individual SOH estimation results for each battery：
+
+<img src="./Figures/Liu2025c-4.png" alt="Description" width="50%"/>
+
+The **comparison results** with other methods provided in this paper are as follows:
+
+
+<img src="./Figures/Liu2025c-2.png" alt="Description" width="70%"/>
+
+
+MAE of the best and worst cases for each Batch:
+
+<img src="./Figures/Liu2025c-3.png" alt="Description" width="70%"/>
+</details>
 
 
 
