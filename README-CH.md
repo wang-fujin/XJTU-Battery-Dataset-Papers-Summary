@@ -6,7 +6,7 @@
 
 English document: [English](./README.md)
 
-最近更新🕒：2024-05-16 😀😀😀
+最近更新🕒：2024-05-21 😀😀😀
 
 
 **数据集链接：**
@@ -63,14 +63,14 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `B1-B3` |         ELSTM[^1]          | `AB` |   2.07%   |    -    | 11.20% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
 | `B1-B3` |          MMMe[^1]          | `AB` |   5.53%   |    -    | 18.60% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
 | `B1-B3` |  PVA-FFG-Transformer[^1]   | `AB` |   6.11%   |    -    | 21.50% |    -    |       -       | [Wang et al. (2024d)](#wang2024d) |                 [link](https://doi.org/10.1016/j.est.2024.114286)                 |          ❌          |        ✅        |
-|  `B1`   |       GJO-SNuSVR[^1]       | `AB` | - | 0.0048  |   -    | 0.0041  |       -       | [Liu  et al. (2025a)](#liu2025a)  | [link](https://doi.org/10.1016/j.est.2024.114822) |          ✅         |       ❌         |
-|  `B2`   |         EVO-LSSVM          | `AB` | - | 0.4939% |   -    |    -    |    0.9915     | [Liu  et al. (2025b)](#liu2025b)  | [link](https://doi.org/10.1016/j.measurement.2024.116620) |          ✅         |       ❌         |
-|  `B3`   |         EVO-LSSVM          | `AB` | - | 0.4018% |   -    |    -    |    0.9947     | [Liu  et al. (2025b)](#liu2025b)  | [link](https://doi.org/10.1016/j.measurement.2024.116620) |          ✅         |       ❌         |
-| `B1b3`  |      BiGRU-Attention       | `AA` | - | 0.8611  | 0.6522 |    -    |       -       |  [Sun et al. (2025a)](#sun2025a)  | [link](https://doi.org/10.1016/j.energy.2025.134756) |          ✅         |       ❌         |
-|  `B1`   |      BatteryPINN [^1]      | `AB` | - | 0.5671% |   -    | 0.3443% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
-|  `B2`   |      BatteryPINN [^1]      | `AB` | - | 0.2900% |   -    | 0.2014% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
-|  `B3`   |      BatteryPINN [^1]      | `AB` | - | 0.7193% |   -    | 0.5817% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
-
+|  `B1`   |       GJO-SNuSVR[^1]       | `AB` |     -     | 0.0048  |   -    | 0.0041  |       -       | [Liu  et al. (2025a)](#liu2025a)  | [link](https://doi.org/10.1016/j.est.2024.114822) |          ✅         |       ❌         |
+|  `B2`   |         EVO-LSSVM          | `AB` |     -     | 0.4939% |   -    |    -    |    0.9915     | [Liu  et al. (2025b)](#liu2025b)  | [link](https://doi.org/10.1016/j.measurement.2024.116620) |          ✅         |       ❌         |
+|  `B3`   |         EVO-LSSVM          | `AB` |     -     | 0.4018% |   -    |    -    |    0.9947     | [Liu  et al. (2025b)](#liu2025b)  | [link](https://doi.org/10.1016/j.measurement.2024.116620) |          ✅         |       ❌         |
+| `B1b3`  |      BiGRU-Attention       | `AA` |     -     | 0.8611  | 0.6522 |    -    |       -       |  [Sun et al. (2025a)](#sun2025a)  | [link](https://doi.org/10.1016/j.energy.2025.134756) |          ✅         |       ❌         |
+|  `B1`   |      BatteryPINN [^1]      | `AB` |     -     | 0.5671% |   -    | 0.3443% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
+|  `B2`   |      BatteryPINN [^1]      | `AB` |     -     | 0.2900% |   -    | 0.2014% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
+|  `B3`   |      BatteryPINN [^1]      | `AB` |     -     | 0.7193% |   -    | 0.5817% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
+|`B1b1`、`B1b6`、`B2b2`| - | `AA` |  <0.07%   | <2.67%  | <1.61% | - | - |   [He et al. (2025a)](#he2025a)   | [link](https://doi.org/10.1016/j.est.2025.116820) |          ✅         |       ❌         |
 
 [^1]: 表格中的MSE，RMSE，MAE，MAPE都是所有电池的平均值。
 
@@ -379,6 +379,28 @@ Liu et al. (2025c)
 
 <img src="./Figures/Liu2025c-3.png" alt="Description" width="70%"/>
 </details>
+
+
+<details>
+<summary id="he2025a">
+He et al. (2025a)
+</summary>
+
+[He H, Zhang W, Long Z, et al. Prediction of lithium-ion batteries health decline trajectories based on early image features[J]. Journal of Energy Storage, 2025, 124: 116820.](https://doi.org/10.1016/j.est.2025.116820)
+
+文章使用了Batch-1的电池1、6，Batch-2的电池2来验证提出的方法，记为`B1b1`、`B1b6`和`B2b2`；
+用前20%的数据进行训练，后80%的数据进行测试。
+
+**结果可视化**：
+
+<img src="./Figures/He2025a-1.png" alt="Description" width="70%"/>
+
+每个电池的单独估计结果：
+
+<img src="./Figures/He2025a-2.png" alt="Description" width="50%"/>
+</details>
+
+
 
 
 ---

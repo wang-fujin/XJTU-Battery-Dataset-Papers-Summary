@@ -5,7 +5,7 @@
 
 Chinese document: [Chinese](./README-CH.md)
 
-Last updated🕒: 2025-05-16 😀😀😀  
+Last updated🕒: 2025-05-21 😀😀😀  
 
 **Dataset Links:**
 - [GitHub](https://wang-fujin.github.io/)
@@ -67,6 +67,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |  `B1`   |      BatteryPINN [^1]      | `AB` | - | 0.5671% |   -    | 0.3443% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
 |  `B2`   |      BatteryPINN [^1]      | `AB` | - | 0.2900% |   -    | 0.2014% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
 |  `B3`   |      BatteryPINN [^1]      | `AB` | - | 0.7193% |   -    | 0.5817% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
+|`B1b1`、`B1b6`、`B2b2`| - | `AA` |  <0.07%   | <2.67%  | <1.61% | - | - |   [He et al. (2025a)](#he2025a)   | [link](https://doi.org/10.1016/j.est.2025.116820) |          ✅         |       ❌         |
 
 
 
@@ -391,6 +392,24 @@ MAE of the best and worst cases for each Batch:
 <img src="./Figures/Liu2025c-3.png" alt="Description" width="70%"/>
 </details>
 
+<details>
+<summary id="he2025a">
+He et al. (2025a)
+</summary>
+
+[He H, Zhang W, Long Z, et al. Prediction of lithium-ion batteries health decline trajectories based on early image features[J]. Journal of Energy Storage, 2025, 124: 116820.](https://doi.org/10.1016/j.est.2025.116820)
+
+This paper uses batteries 1 and 6 of Batch-1 and battery 2 of Batch-2 to verify the proposed method, denoted as `B1b1`, `B1b6` and `B2b2`;
+The first 20% of the data is used for training, and the last 80% of the data is used for testing.
+
+**Results Visualization**：
+
+<img src="./Figures/He2025a-1.png" alt="Description" width="70%"/>
+
+The estimation result for each battery：
+
+<img src="./Figures/He2025a-2.png" alt="Description" width="50%"/>
+</details>
 
 
 ---
