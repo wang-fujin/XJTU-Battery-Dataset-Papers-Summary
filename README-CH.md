@@ -77,8 +77,11 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 ---
 
 ### RUL预测结果汇总
-| Battery |   Model Name   | Mode |    MSE     |  RMSE   |  MAE   |    MAPE     | R<sup>2</sup> |             Details             | Paper Link | Non-transfer learning | Transfer learning |
-|:-------:|:--------------:|:----:|:----------:|:-------:|:------:|:-----------:|:-------------:|:-------------------------------:|:-----:|:-----:|:-----:|
+| Battery |   Model Name   | Mode |    MSE     |  RMSE   |  MAE   |    MAPE     | R<sup>2</sup> |             Details             |            Paper Link             | Non-transfer learning | Transfer learning |
+|:-------:|:--------------:|:----:|:----------:|:-------:|:------:|:-----------:|:-------------:|:-------------------------------:|:---------------------------------:|:-----:|:-----:|
+|`B1,B3-B5`| ShuffleNet | `AB` |  - | - | - | - | - | [Feng et al. (2025a)](#feng2025a) | [link](https://doi.org/10.1016/j.est.2025.116210) |          ✅          |        ❌        |
+
+
 
 ---
 
@@ -381,6 +384,24 @@ Liu et al. (2025c)
 ---
 
 # RUL prediction
+
+<details>
+<summary id="feng2025a">
+Feng et al. (2025a)
+</summary>
+
+[Feng H, Xue D. Parallel-branch enhanced ShuffleNet with dual-physics constraints for lithium-ion battery RUL prediction[J]. Journal of Energy Storage, 2025, 118: 116210.](https://doi.org/10.1016/j.est.2025.116210)
+
+文章使用了Batch-1、Batch-3、Batch-4、Batch-5的电池数据来验证提出的ShuffleNet方法。
+
+**详细结果如下**：
+
+<img src="./Figures/Feng2025a-1.png" alt="Description" width="50%"/>
+
+</details>
+
+
+
 
 ---
 
