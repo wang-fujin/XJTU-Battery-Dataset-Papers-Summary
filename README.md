@@ -5,7 +5,7 @@
 
 Chinese document: [Chinese](./README-CH.md)
 
-Last updated🕒: 2025-05-21 😀😀😀  
+Last updated🕒: 2025-10-16 😀😀😀  
 
 **Dataset Links:**
 - [GitHub](https://wang-fujin.github.io/)
@@ -68,6 +68,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |  `B2`   |      BatteryPINN [^1]      | `AB` | - | 0.2900% |   -    | 0.2014% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
 |  `B3`   |      BatteryPINN [^1]      | `AB` | - | 0.7193% |   -    | 0.5817% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
 |`B1b1`、`B1b6`、`B2b2`| - | `AA` |  <0.07%   | <2.67%  | <1.61% | - | - |   [He et al. (2025a)](#he2025a)   | [link](https://doi.org/10.1016/j.est.2025.116820) |          ✅         |       ❌         |
+|`B1b1-B1b4` | PI-TFT-iDOA | `AA` |     -     |   View details    |   View details     |   -    |       View details        |   [Hu et al. (2025a)](#hu2025a)   | [link](https://doi.org/10.1016/j.energy.2025.138239) |          ✅         |       ❌         |
 
 
 
@@ -410,6 +411,27 @@ The estimation result for each battery：
 
 <img src="./Figures/He2025a-2.png" alt="Description" width="50%"/>
 </details>
+
+
+<details>
+<summary id="hu2025a">Hu et al. (2025a)</summary>
+
+[Hu Y, Yun Z, Wang J, et al. A battery SOH estimation method based on PI-TFT-iDOA driven Li-Battery discharge state features[J]. Energy, 2025: 138239.](https://doi.org/10.1016/j.energy.2025.138239)
+
+
+This paper uses the first 4 battery data of Batch-1 to verify the proposed PI-TFT-iDOA method;
+The task is SOH estimation;
+
+The estimation result for each battery：
+
+<img src="./Figures/Hu2025a-1.png" alt="Description" width="50%"/>
+
+<img src="./Figures/Hu2025a-2.png" alt="Description" width="50%"/>
+
+</details>
+
+
+
 
 
 ---

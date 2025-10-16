@@ -6,7 +6,7 @@
 
 English document: [English](./README.md)
 
-最近更新🕒：2024-05-21 😀😀😀
+最近更新🕒：2024-10-16 😀😀😀
 
 
 **数据集链接：**
@@ -71,6 +71,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |  `B2`   |      BatteryPINN [^1]      | `AB` |     -     | 0.2900% |   -    | 0.2014% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
 |  `B3`   |      BatteryPINN [^1]      | `AB` |     -     | 0.7193% |   -    | 0.5817% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
 |`B1b1`、`B1b6`、`B2b2`| - | `AA` |  <0.07%   | <2.67%  | <1.61% | - | - |   [He et al. (2025a)](#he2025a)   | [link](https://doi.org/10.1016/j.est.2025.116820) |          ✅         |       ❌         |
+|`B1b1-B1b4` | PI-TFT-iDOA | `AA` |     -     |   见详情    |   见详情    |   -    |       见详情       |   [Hu et al. (2025a)](#hu2025a)   | [link](https://doi.org/10.1016/j.energy.2025.138239) |          ✅         |       ❌         |
 
 [^1]: 表格中的MSE，RMSE，MAE，MAPE都是所有电池的平均值。
 
@@ -401,6 +402,22 @@ He et al. (2025a)
 </details>
 
 
+
+
+<details>
+<summary id="hu2025a">Hu et al. (2025a)</summary>
+
+[Hu Y, Yun Z, Wang J, et al. A battery SOH estimation method based on PI-TFT-iDOA driven Li-Battery discharge state features[J]. Energy, 2025: 138239.](https://doi.org/10.1016/j.energy.2025.138239)
+
+文章使用了Batch-1的前4个电池数据来验证提出的方法；
+
+每个电池单独估计结果：
+
+<img src="./Figures/Hu2025a-1.png" alt="Description" width="50%"/>
+
+<img src="./Figures/Hu2025a-2.png" alt="Description" width="50%"/>
+
+</details>
 
 
 ---
