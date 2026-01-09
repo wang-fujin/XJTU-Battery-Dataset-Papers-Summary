@@ -6,7 +6,7 @@
 
 English document: [English](./README.md)
 
-最近更新🕒：2024-10-16 😀😀😀
+最近更新🕒：2026-1-9 😀😀😀
 
 
 **数据集链接：**
@@ -72,6 +72,8 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |  `B3`   |      BatteryPINN [^1]      | `AB` |     -     | 0.7193% |   -    | 0.5817% |       -       |  [Liu et al. (2025c)](#liu2025c)  | [link](https://doi.org/10.1016/j.aei.2025.103211) |          ✅         |       ❌         |
 |`B1b1`、`B1b6`、`B2b2`| - | `AA` |  <0.07%   | <2.67%  | <1.61% | - | - |   [He et al. (2025a)](#he2025a)   | [link](https://doi.org/10.1016/j.est.2025.116820) |          ✅         |       ❌         |
 |`B1b1-B1b4` | PI-TFT-iDOA | `AA` |     -     |   见详情    |   见详情    |   -    |       见详情       |   [Hu et al. (2025a)](#hu2025a)   | [link](https://doi.org/10.1016/j.energy.2025.138239) |          ✅         |       ❌         |
+| `All` | GRU | `AB` | - | 0.0254 | - | 0.0234 | 0.9718 | [Coronado et al. (2025a)](#Coronado2025a) | [link](https://doi.org/10.1109/INTERCON67304.2025.11244713) | ✅         |       ❌         |
+
 
 [^1]: 表格中的MSE，RMSE，MAE，MAPE都是所有电池的平均值。
 
@@ -403,7 +405,6 @@ He et al. (2025a)
 
 
 
-
 <details>
 <summary id="hu2025a">Hu et al. (2025a)</summary>
 
@@ -416,6 +417,21 @@ He et al. (2025a)
 <img src="./Figures/Hu2025a-1.png" alt="Description" width="50%"/>
 
 <img src="./Figures/Hu2025a-2.png" alt="Description" width="50%"/>
+
+</details>
+
+
+
+<details>
+<summary id="Coronado2025a">Coronado et al. (2025a)</summary>
+
+[Coronado A M, Zegarra F C. Optimizing Neural Networks for SoH Prediction in Li-Ion Batteries: CNN, GRU, and GRU+ Attention with Optuna[C]//2025 IEEE XXXII International Conference on Electronics, Electrical Engineering and Computing (INTERCON). IEEE, 2025: 1-6.](https://doi.org/10.1109/INTERCON67304.2025.11244713)
+
+文章使用6个批次的数据进行混合训练和测试；
+
+<img src="./Figures/Coronado2025a-1.png" alt="Description" width="50%"/>
+
+<img src="./Figures/Coronado2025a-2.png" alt="Description" width="50%"/>
 
 </details>
 
