@@ -73,7 +73,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |`B1b1`、`B1b6`、`B2b2`| - | `AA` |  <0.07%   | <2.67%  | <1.61% | - | - |   [He et al. (2025a)](#he2025a)   | [link](https://doi.org/10.1016/j.est.2025.116820) |          ✅         |       ❌         |
 |`B1b1-B1b4` | PI-TFT-iDOA | `AA` |     -     |   见详情    |   见详情    |   -    |       见详情       |   [Hu et al. (2025a)](#hu2025a)   | [link](https://doi.org/10.1016/j.energy.2025.138239) |          ✅         |       ❌         |
 | `All` | GRU | `AB` | - | 0.0254 | - | 0.0234 | 0.9718 | [Coronado et al. (2025a)](#Coronado2025a) | [link](https://doi.org/10.1109/INTERCON67304.2025.11244713) | ✅         |       ❌         |
-
+| `B1b1-b4` | KAN | `AB` |  - | <0.0052 | <0.0043 | - | - | [Jia et al. (2025a)](#Jia2025a) | [link](https://ieeexplore.ieee.org/document/10922385/) | ✅ |  ❌ |
 
 [^1]: 表格中的MSE，RMSE，MAE，MAPE都是所有电池的平均值。
 
@@ -432,6 +432,18 @@ He et al. (2025a)
 <img src="./Figures/Coronado2025a-1.png" alt="Description" width="50%"/>
 
 <img src="./Figures/Coronado2025a-2.png" alt="Description" width="50%"/>
+
+</details>
+
+
+<details>
+<summary id='Jia2025a'>Jia et al. (2025a)</summary>
+
+[Z. Jia, Z. Li, Z. Wang, Z. Liu and C. -M. Vong. Joint Prediction of SOH and RUL for Lithium Batteries Considering Capacity Self Recovery and Model Drift[J]. IEEE Internet of Things Journal, vol. 12, no. 12, pp. 22187-22196, 15 June15, 2025](https://ieeexplore.ieee.org/document/10922385)
+
+<img src="./Figures/Jia2025a-1.png" alt="Description" width="50%"/>
+
+<img src="./Figures/Jia2025a-2.png" alt="Description" width="50%"/>
 
 </details>
 
