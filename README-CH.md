@@ -74,6 +74,8 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |`B1b1-B1b4` | PI-TFT-iDOA | `AA` |     -     |   见详情    |   见详情    |   -    |       见详情       |   [Hu et al. (2025a)](#hu2025a)   | [link](https://doi.org/10.1016/j.energy.2025.138239) |          ✅         |       ❌         |
 | `All` | GRU | `AB` | - | 0.0254 | - | 0.0234 | 0.9718 | [Coronado et al. (2025a)](#Coronado2025a) | [link](https://doi.org/10.1109/INTERCON67304.2025.11244713) | ✅         |       ❌         |
 | `B1b1-b4` | KAN | `AB` |  - | <0.0052 | <0.0043 | - | - | [Jia et al. (2025a)](#Jia2025a) | [link](https://ieeexplore.ieee.org/document/10922385/) | ✅ |  ❌ |
+| `B1` | HSSTT | `AB` | - | 1.638% | 1.285% | - | - | [Lin et al. (2025a)](#Lin2025a) | [link](https://ieeexplore.ieee.org/document/11126537) |  ✅ |  ❌ |
+
 
 [^1]: 表格中的MSE，RMSE，MAE，MAPE都是所有电池的平均值。
 
@@ -444,6 +446,19 @@ He et al. (2025a)
 <img src="./Figures/Jia2025a-1.png" alt="Description" width="50%"/>
 
 <img src="./Figures/Jia2025a-2.png" alt="Description" width="50%"/>
+
+</details>
+
+
+
+<details>
+<summary id='Lin2025a'>Lin et al. (2025a)</summary>
+
+[Lin X, Bi Y, Fu R, et al. Hierarchical Stochastic Spatial–Temporal Transformer for Trustworthy State-of-Health Estimation of Batteries in Industrial Applications[J]. IEEE Transactions on Industrial Informatics, 2025.](https://ieeexplore.ieee.org/document/11126537)
+
+文章提出 HSSTT (Hierarchical Stochastic Spatial–Temporal Transformer) 方法，使用`Batch-1`数据进行验证.
+
+<img src="./Figures/Lin2025a-1.png" alt="Description" width="50%"/>
 
 </details>
 

@@ -74,6 +74,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |`B1b1-B1b4` | PI-TFT-iDOA | `AA` |     -     |   View details    |   View details     |   -    |       View details        |   [Hu et al. (2025a)](#hu2025a)   | [link](https://doi.org/10.1016/j.energy.2025.138239) |          ✅         |       ❌         |
 | `All` | GRU | `AB` | - | 0.0254 | - | 0.0234 | 0.9718 | [Coronado et al. (2025a)](#Coronado2025a) | [link](https://doi.org/10.1109/INTERCON67304.2025.11244713) | ✅         |       ❌         |
 | `B1b1-b4` | KAN | `AB` |  - | <0.0052 | <0.0043 | - | - | [Jia et al. (2025a)](#Jia2025a) | [link](https://ieeexplore.ieee.org/document/10922385/) | ✅ |  ❌ |
+| `B1` | HSSTT | `AB` | - | 1.638% | 1.285% | - | - | [Lin et al. (2025a)](#Lin2025a) | [link](https://ieeexplore.ieee.org/document/11126537) |  ✅ |  ❌ |
 
 
 [^1]: The MSE, RMSE, MAE, and MAPE values in the table are averages across all batteries.
@@ -458,6 +459,16 @@ The paper uses All batches for mixed training and testing:
 
 </details>
 
+<details>
+<summary id='Lin2025a'>Lin et al. (2025a)</summary>
+
+[Lin X, Bi Y, Fu R, et al. Hierarchical Stochastic Spatial–Temporal Transformer for Trustworthy State-of-Health Estimation of Batteries in Industrial Applications[J]. IEEE Transactions on Industrial Informatics, 2025.](https://ieeexplore.ieee.org/document/11126537)
+
+The article validates the proposed HSSTT (Hierarchical Stochastic Spatial–Temporal Transformer) model using the XJTU `Batch-1`.
+
+<img src="./Figures/Lin2025a-1.png" alt="Description" width="50%"/>
+
+</details>
 
 ---
 
