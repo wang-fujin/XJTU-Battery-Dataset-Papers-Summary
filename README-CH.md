@@ -75,7 +75,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `All` | GRU | `AB` | - | 0.0254 | - | 0.0234 | 0.9718 | [Coronado et al. (2025a)](#Coronado2025a) | [link](https://doi.org/10.1109/INTERCON67304.2025.11244713) | ✅         |       ❌         |
 | `B1b1-b4` | KAN | `AB` |  - | <0.0052 | <0.0043 | - | - | [Jia et al. (2025a)](#Jia2025a) | [link](https://ieeexplore.ieee.org/document/10922385/) | ✅ |  ❌ |
 | `B1` | HSSTT | `AB` | - | 1.638% | 1.285% | - | - | [Lin et al. (2025a)](#Lin2025a) | [link](https://ieeexplore.ieee.org/document/11126537) |  ✅ |  ❌ |
-
+| `B1b1-b4`,`B2b1、b3`| CNN | `AB` | - | 见详情 | - | 见详情 | - | [Zhao et al. (2025a)](#Zhao2025a) | [link](https://doi.org/10.1016/j.est.2025.117296) | ✅ | ✅  |
 
 [^1]: 表格中的MSE，RMSE，MAE，MAPE都是所有电池的平均值。
 
@@ -462,6 +462,34 @@ He et al. (2025a)
 
 </details>
 
+<details>
+<summary id='Zhao2025a'>Zhao et al. (2025a)</summary>
+
+[Zhao J, Zhang X, Hu C. Lithium-ion battery State-of-Health estimation using voltage-position encoding CNN and Incremental Capacity Analysis with a novel smoothing parameter selection strategy[J]. Journal of Energy Storage, 2025, 130: 117296.](https://doi.org/10.1016/j.est.2025.117296)
+
+文章使用了Batch-1的前4个电池数据和Batch-2的电池1、3的数据来验证提出的方法；有迁移和非迁移两种设定：
+
+**非迁移设定**:文章给出了不同采样间隔下的最大误差值
+
+<img src="./Figures/Zhao2025a-1.png" alt="Description" width="50%"/>
+
+<img src="./Figures/Zhao2025a-2.png" alt="Description" width="50%"/>
+
+<img src="./Figures/Zhao2025a-3.png" alt="Description" width="80%"/>
+
+与其他方法的对比：
+
+<img src="./Figures/Zhao2025a-5.png" alt="Description" width="50%"/>
+
+
+**迁移设定**：
+训练集使用 Batch-1 中的 Battery-4、−2。
+测试数据包括Batch-2中的Battery-1和Battery-3。
+测试集每只电池的前 25% 的数据用于微调。
+
+<img src="./Figures/Zhao2025a-4.png" alt="Description" width="80%"/>
+
+</details>
 
 ---
 

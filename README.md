@@ -75,7 +75,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `All` | GRU | `AB` | - | 0.0254 | - | 0.0234 | 0.9718 | [Coronado et al. (2025a)](#Coronado2025a) | [link](https://doi.org/10.1109/INTERCON67304.2025.11244713) | ✅         |       ❌         |
 | `B1b1-b4` | KAN | `AB` |  - | <0.0052 | <0.0043 | - | - | [Jia et al. (2025a)](#Jia2025a) | [link](https://ieeexplore.ieee.org/document/10922385/) | ✅ |  ❌ |
 | `B1` | HSSTT | `AB` | - | 1.638% | 1.285% | - | - | [Lin et al. (2025a)](#Lin2025a) | [link](https://ieeexplore.ieee.org/document/11126537) |  ✅ |  ❌ |
-
+| `B1b1-b4`,`B2b1、b3`| CNN | `AB` | - | view details | - | view details | - | [Zhao et al. (2025a)](#Zhao2025a) | [link](https://doi.org/10.1016/j.est.2025.117296) | ✅ | ✅  |
 
 [^1]: The MSE, RMSE, MAE, and MAPE values in the table are averages across all batteries.
 
@@ -469,6 +469,35 @@ The article validates the proposed HSSTT (Hierarchical Stochastic Spatial–Temp
 <img src="./Figures/Lin2025a-1.png" alt="Description" width="50%"/>
 
 </details>
+
+<details>
+<summary id='Zhao2025a'>Zhao et al. (2025a)</summary>
+
+[Zhao J, Zhang X, Hu C. Lithium-ion battery State-of-Health estimation using voltage-position encoding CNN and Incremental Capacity Analysis with a novel smoothing parameter selection strategy[J]. Journal of Energy Storage, 2025, 130: 117296.](https://doi.org/10.1016/j.est.2025.117296)
+
+The study validated the proposed method using the data of the first four batteries in Batch 1 and the data of Battery 1 and Battery 3 in Batch 2, with two settings adopted: transfer setting and non-transfer setting.
+
+**Non-Transfer Setting**: The paper provides the maximum error values under different sampling intervals.
+
+<img src="./Figures/Zhao2025a-1.png" alt="Description" width="50%"/>
+
+<img src="./Figures/Zhao2025a-2.png" alt="Description" width="50%"/>
+
+<img src="./Figures/Zhao2025a-3.png" alt="Description" width="80%"/>
+
+Comparison with other methods:
+
+<img src="./Figures/Zhao2025a-5.png" alt="Description" width="50%"/>
+
+
+**Transfer Setting**:
+Training set uses Battery-4 and Battery-2 from Batch-1. Test data includes Battery-1 and Battery-3 from Batch-2. The first 25% of data from each test battery is used for fine-tuning.
+
+<img src="./Figures/Zhao2025a-4.png" alt="Description" width="80%"/>
+
+</details>
+
+
 
 ---
 
