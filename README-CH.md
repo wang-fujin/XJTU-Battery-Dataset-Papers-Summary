@@ -6,7 +6,7 @@
 
 English document: [English](./README.md)
 
-最近更新🕒：2026-1-9 😀😀😀
+最近更新🕒：2026-3-10 😀😀😀
 
 
 **数据集链接：**
@@ -76,6 +76,8 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `B1b1-b4` | KAN | `AB` |  - | <0.0052 | <0.0043 | - | - | [Jia et al. (2025a)](#Jia2025a) | [link](https://ieeexplore.ieee.org/document/10922385/) | ✅ |  ❌ |
 | `B1` | HSSTT | `AB` | - | 1.638% | 1.285% | - | - | [Lin et al. (2025a)](#Lin2025a) | [link](https://ieeexplore.ieee.org/document/11126537) |  ✅ |  ❌ |
 | `B1b1-b4`,`B2b1、b3`| CNN | `AB` | - | 见详情 | - | 见详情 | - | [Zhao et al. (2025a)](#Zhao2025a) | [link](https://doi.org/10.1016/j.est.2025.117296) | ✅ | ✅  |
+| `B1b1-b6` | MLPS | `AB` | - | 0.3868% | 0.2531% | 0.2771% | 0.9946 | [Liu et al. (2026a)](#Liu2026a) | [link](https://doi.org/10.1016/j.est.2025.119595) | ✅ |  ❌ |
+
 
 [^1]: 表格中的MSE，RMSE，MAE，MAPE都是所有电池的平均值。
 
@@ -490,6 +492,20 @@ He et al. (2025a)
 <img src="./Figures/Zhao2025a-4.png" alt="Description" width="80%"/>
 
 </details>
+
+<details>
+<summary id='Liu2026a'>Liu et al. (2026a)</summary>
+
+[Liu Y, Xu Y, Liao Z, et al. High-precision battery state-of-health estimation method based on multi-scale gramian matrix entropy and data augmentation[J]. Journal of Energy Storage, 2026, 141: 119595.](https://doi.org/10.1016/j.est.2025.119595)
+
+
+文章使用了Batch-1的前6个电池来验证提出的方法
+
+<img src="./Figures/Liu2026a-1.png" alt="Description" width="80%"/>
+
+
+</details>
+
 
 ---
 
