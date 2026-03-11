@@ -87,7 +87,9 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | Battery |   Model Name   | Mode |    MSE     |  RMSE   |  MAE   |    MAPE     | R<sup>2</sup> |             Details             | Paper Link | Non-transfer learning | Transfer learning |
 |:-------:|:--------------:|:----:|:----------:|:-------:|:------:|:-----------:|:-------------:|:-------------------------------:|:-----:|:-----:|:-----:|
 |`B1,B3-B5`| ShuffleNet | `AB` |  - | - | - | - | - | [Feng et al. (2025a)](#feng2025a) | [link](https://doi.org/10.1016/j.est.2025.116210) |          ✅          |        ❌        |
+| `B1-B2` | AlexNet | `AB` | - | 24.04[^2] | - | 7.86% | - | [Yang et al. (2025a)](#Yang2025a) | [link](https://doi.org/10.1016/j.jpowsour.2025.236620) | ✅  | ❌ |
 
+[^2]: The unit is `cycle`.
 
 ---
 
@@ -530,7 +532,22 @@ This paper uses battery data from Batch-1, Batch-3, Batch-4, and Batch-5 to veri
 
 </details>
 
+<details>
+<summary id="Yang2025a">Yang et al. (2025a)</summary>
 
+[Yang W, Yang H. Ultra-early prediction of lithium-ion battery cycle life based on assembled capacity curve extracted from a single cycle[J]. Journal of Power Sources, 2025, 640: 236620.](https://doi.org/10.1016/j.jpowsour.2025.236620)
+
+This paper constructs features from the data of the first cycle to predict the RUL, using data from `Batch-1` and `Batch-2`, and performs 15-fold cross-validation.
+
+<img src="./Figures/Yang2025a-1.png" alt="Description" width="80%"/>
+
+<img src="./Figures/Yang2025a-2.png" alt="Description" width="80%"/>
+
+<img src="./Figures/Yang2025a-3.png" alt="Description" width="50%"/>
+
+<img src="./Figures/Yang2025a-4.png" alt="Description" width="80%"/>
+
+</details>
 
 ---
 

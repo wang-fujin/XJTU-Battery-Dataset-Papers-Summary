@@ -6,7 +6,7 @@
 
 English document: [English](./README.md)
 
-最近更新🕒：2026-3-10 😀😀😀
+最近更新🕒：2026-3-10 😀😀😀 （**太多了，慢慢更新，整理也挺费时间的，争取一天一篇。如果作者有时间总结自己的文章，可以联系我或者直接推送**）
 
 
 **数据集链接：**
@@ -87,8 +87,9 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | Battery |   Model Name   | Mode |    MSE     |  RMSE   |  MAE   |    MAPE     | R<sup>2</sup> |             Details             |            Paper Link             | Non-transfer learning | Transfer learning |
 |:-------:|:--------------:|:----:|:----------:|:-------:|:------:|:-----------:|:-------------:|:-------------------------------:|:---------------------------------:|:-----:|:-----:|
 |`B1,B3-B5`| ShuffleNet | `AB` |  - | - | - | - | - | [Feng et al. (2025a)](#feng2025a) | [link](https://doi.org/10.1016/j.est.2025.116210) |          ✅          |        ❌        |
+| `B1-B2` | AlexNet | `AB` | - | 24.04[^2] | - | 7.86% | - | [Yang et al. (2025a)](#Yang2025a) | [link](https://doi.org/10.1016/j.jpowsour.2025.236620) | ✅  | ❌ |
 
-
+[^2]: 单位为cycle。
 
 ---
 
@@ -526,8 +527,22 @@ Feng et al. (2025a)
 
 </details>
 
+<details>
+<summary id="Yang2025a">Yang et al. (2025a)</summary>
 
+[Yang W, Yang H. Ultra-early prediction of lithium-ion battery cycle life based on assembled capacity curve extracted from a single cycle[J]. Journal of Power Sources, 2025, 640: 236620.](https://doi.org/10.1016/j.jpowsour.2025.236620)
 
+文章从第一个cycle的数据中构造特征来预测RUL，使用了Batch-1和Batch-2的数据，并进行15折交叉验证。
+
+<img src="./Figures/Yang2025a-1.png" alt="Description" width="80%"/>
+
+<img src="./Figures/Yang2025a-2.png" alt="Description" width="80%"/>
+
+<img src="./Figures/Yang2025a-3.png" alt="Description" width="50%"/>
+
+<img src="./Figures/Yang2025a-4.png" alt="Description" width="80%"/>
+
+</details>
 
 ---
 
