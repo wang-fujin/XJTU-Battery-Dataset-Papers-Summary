@@ -77,6 +77,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `B1` | HSSTT | `AB` | - | 1.638% | 1.285% | - | - | [Lin et al. (2025a)](#Lin2025a) | [link](https://ieeexplore.ieee.org/document/11126537) |  ✅ |  ❌ |
 | `B1b1-b4`,`B2b1、b3`| CNN | `AB` | - | view details | - | view details | - | [Zhao et al. (2025a)](#Zhao2025a) | [link](https://doi.org/10.1016/j.est.2025.117296) | ✅ | ✅  |
 | `B1b1-b6` | MLPS | `AB` | - | 0.3868% | 0.2531% | 0.2771% | 0.9946 | [Liu et al. (2026a)](#Liu2026a) | [link](https://doi.org/10.1016/j.est.2025.119595) | ✅ |  ❌ |
+| `B1` | KG-CNN | `AB` | - | 42.53 mAh | - | - | - | [Zhang et al. (2025a)](#Zhang2025a) | [link](https://doi.org/10.1016/j.ress.2025.111211) | ✅ |  ❌ |
 
 
 [^1]: The MSE, RMSE, MAE, and MAPE values in the table are averages across all batteries.
@@ -510,8 +511,20 @@ This study validated the prposed method using the data from the first six batter
 
 <img src="./Figures/Liu2026a-1.png" alt="Description" width="80%"/>
 
+</details>
+
+<details>
+<summary id='Zhang2025a'>Zhang et al. (2025a)</summary>
+
+[Zhang K, Rayeem S K, Mai W, et al. Enhancing battery health estimation using incomplete charging curves and knowledge-guided deep learning[J]. Reliability Engineering & System Safety, 2025, 262: 111211.](https://doi.org/10.1016/j.ress.2025.111211)
+
+<img src="./Figures/Zhang2025a-1.png" alt="Description" width="80%"/>
+
+<img src="./Figures/Zhang2025a-2.png" alt="Description" width="50%"/>
 
 </details>
+
+
 
 
 ---
