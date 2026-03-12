@@ -6,7 +6,7 @@
 
 English document: [English](./README.md)
 
-最近更新🕒：2026-3-10 😀😀😀 （**太多了，慢慢更新，整理也挺费时间的，争取一天一篇。如果作者有时间总结自己的文章，可以联系我或者直接推送**）
+最近更新🕒：2026-3-12 😀😀😀 （**太多了，慢慢更新，整理也挺费时间的，争取一天一篇。如果作者有时间总结自己的文章，可以联系我或者直接推送**）
 
 
 **数据集链接：**
@@ -78,6 +78,8 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `B1b1-b4`,`B2b1、b3`| CNN | `AB` | - | 见详情 | - | 见详情 | - | [Zhao et al. (2025a)](#Zhao2025a) | [link](https://doi.org/10.1016/j.est.2025.117296) | ✅ | ✅  |
 | `B1b1-b6` | MLPS | `AB` | - | 0.3868% | 0.2531% | 0.2771% | 0.9946 | [Liu et al. (2026a)](#Liu2026a) | [link](https://doi.org/10.1016/j.est.2025.119595) | ✅ |  ❌ |
 | `B1` | KG-CNN | `AB` | - | 42.53 mAh | - | - | - | [Zhang et al. (2025a)](#Zhang2025a) | [link](https://doi.org/10.1016/j.ress.2025.111211) | ✅ |  ❌ |
+| `B1` | RATGH | `AB` | - | <1.14% | <0.655% | <0.598% |  >0.9643 | [Chen et al. (2026a)](#Chen2026a) | [link](https://link.springer.com/article/10.1007/s00202-025-03350-x) | ✅ |  ❌ |
+
 
 
 [^1]: 表格中的MSE，RMSE，MAE，MAPE都是所有电池的平均值。
@@ -516,6 +518,22 @@ He et al. (2025a)
 <img src="./Figures/Zhang2025a-1.png" alt="Description" width="80%"/>
 
 <img src="./Figures/Zhang2025a-2.png" alt="Description" width="50%"/>
+
+</details>
+
+
+<details>
+<summary id='Chen2026a'>Chen et al. (2026a)</summary>
+
+[Chen S, Wei C, Han L, et al. RATGH: state of health estimation of lithium-ion batteries based on ResAttention-Transformer with Gramian hybrid field encoding[J]. Electrical Engineering, 2026, 108(1): 55.](https://link.springer.com/article/10.1007/s00202-025-03350-x)
+
+<img src="./Figures/Chen2026a-1.png" alt="Description" width="80%"/>
+
+<img src="./Figures/Chen2026a-2.png" alt="Description" width="80%"/>
+
+与其他方法对比：
+
+<img src="./Figures/Chen2026a-3.png" alt="Description" width="80%"/>
 
 </details>
 

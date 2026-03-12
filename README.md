@@ -5,7 +5,7 @@
 
 Chinese document: [Chinese](./README-CH.md)
 
-Last updated🕒: 2026-3-10 😀😀😀  
+Last updated🕒: 2026-3-12 😀😀😀  
 
 **Dataset Links:**
 - [GitHub](https://wang-fujin.github.io/)
@@ -78,7 +78,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `B1b1-b4`,`B2b1、b3`| CNN | `AB` | - | view details | - | view details | - | [Zhao et al. (2025a)](#Zhao2025a) | [link](https://doi.org/10.1016/j.est.2025.117296) | ✅ | ✅  |
 | `B1b1-b6` | MLPS | `AB` | - | 0.3868% | 0.2531% | 0.2771% | 0.9946 | [Liu et al. (2026a)](#Liu2026a) | [link](https://doi.org/10.1016/j.est.2025.119595) | ✅ |  ❌ |
 | `B1` | KG-CNN | `AB` | - | 42.53 mAh | - | - | - | [Zhang et al. (2025a)](#Zhang2025a) | [link](https://doi.org/10.1016/j.ress.2025.111211) | ✅ |  ❌ |
-
+| `B1` | RATGH | `AB` | - | <1.14% | <0.655% | <0.598% |  >0.9643 | [Chen et al. (2026a)](#Chen2026a) | [link](https://link.springer.com/article/10.1007/s00202-025-03350-x) | ✅ |  ❌ |
 
 [^1]: The MSE, RMSE, MAE, and MAPE values in the table are averages across all batteries.
 
@@ -524,7 +524,20 @@ This study validated the prposed method using the data from the first six batter
 
 </details>
 
+<details>
+<summary id='Chen2026a'>Chen et al. (2026a)</summary>
 
+[Chen S, Wei C, Han L, et al. RATGH: state of health estimation of lithium-ion batteries based on ResAttention-Transformer with Gramian hybrid field encoding[J]. Electrical Engineering, 2026, 108(1): 55.](https://link.springer.com/article/10.1007/s00202-025-03350-x)
+
+<img src="./Figures/Chen2026a-1.png" alt="Description" width="80%"/>
+
+<img src="./Figures/Chen2026a-2.png" alt="Description" width="80%"/>
+
+Comparison with other methods:
+
+<img src="./Figures/Chen2026a-3.png" alt="Description" width="80%"/>
+
+</details>
 
 
 ---
