@@ -79,7 +79,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `B1b1-b6` | MLPS | `AB` | - | 0.3868% | 0.2531% | 0.2771% | 0.9946 | [Liu et al. (2026a)](#Liu2026a) | [link](https://doi.org/10.1016/j.est.2025.119595) | ✅ |  ❌ |
 | `B1` | KG-CNN | `AB` | - | 42.53 mAh | - | - | - | [Zhang et al. (2025a)](#Zhang2025a) | [link](https://doi.org/10.1016/j.ress.2025.111211) | ✅ |  ❌ |
 | `B1` | RATGH | `AB` | - | <1.14% | <0.655% | <0.598% |  >0.9643 | [Chen et al. (2026a)](#Chen2026a) | [link](https://link.springer.com/article/10.1007/s00202-025-03350-x) | ✅ |  ❌ |
-
+| `B1b1-b3` | FCSA-PatchTSCT | `AB` | - | <0.0057 | <0.0047 | - | >0.9882 | [Gui et al. (2026a)](#Gui2026a) | [link](https://ieeexplore.ieee.org/document/11265776) | ❌ |  ✅ |
 
 
 [^1]: 表格中的MSE，RMSE，MAE，MAPE都是所有电池的平均值。
@@ -534,6 +534,23 @@ He et al. (2025a)
 与其他方法对比：
 
 <img src="./Figures/Chen2026a-3.png" alt="Description" width="80%"/>
+
+</details>
+
+<details>
+<summary id='Gui2026a'>Gui et al. (2026a)</summary>
+
+[Gui X, Zhang S, Cheng Y, et al. Fine-Grained Subdomain Alignment and Feature Grouping Based Cross-Domain SOH Estimation for Lithium-Ion Batteries Using a Patch Time Series CNN-Transformer Network[J]. IEEE Transactions on Power Electronics, 2025.](https://ieeexplore.ieee.org/document/11265776)
+
+文章使用Batch-1的前三个电池来验证提出的方法，虽然文章由迁移学习的设定，但是源于和目标域所用的都是同一个Batch的电池。
+
+<img src="./Figures/Gui2026a-3.png" alt="Description" width="50%"/>
+
+在该数据集上的任务有3个，分别是G/H/I,结果如下：
+
+<img src="./Figures/Gui2026a-1.png" alt="Description" width="50%"/>
+
+<img src="./Figures/Gui2026a-2.png" alt="Description" width="50%"/>
 
 </details>
 
