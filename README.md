@@ -90,6 +90,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |:-------:|:--------------:|:----:|:----------:|:-------:|:------:|:-----------:|:-------------:|:-------------------------------:|:-----:|:-----:|:-----:|
 |`B1,B3-B5`| ShuffleNet | `AB` |  - | - | - | - | - | [Feng et al. (2025a)](#feng2025a) | [link](https://doi.org/10.1016/j.est.2025.116210) |          ✅          |        ❌        |
 | `B1-B2` | AlexNet | `AB` | - | 24.04[^2] | - | 7.86% | - | [Yang et al. (2025a)](#Yang2025a) | [link](https://doi.org/10.1016/j.jpowsour.2025.236620) | ✅  | ❌ |
+| `B1,B3` | ECA-CNN | `AB` | - | - | - | - | - | [Li et al. (2025a)](#Li2025a) | [link](https://ieeexplore.ieee.org/document/11268112) | ✅  | ❌ |
 
 [^2]: The unit is `cycle`.
 
@@ -590,6 +591,17 @@ This paper constructs features from the data of the first cycle to predict the R
 <img src="./Figures/Yang2025a-3.png" alt="Description" width="50%"/>
 
 <img src="./Figures/Yang2025a-4.png" alt="Description" width="80%"/>
+
+</details>
+
+<details>
+<summary id="Li2025a">Li et al. (2025a)</summary>
+
+[Li H, Wang J, Deng Z, et al. ECA-CNN-Driven RUL Prediction for Lithium-Ion Batteries: A Charging Data Deep Learning Approach[C]//2025 CAA Symposium on Fault Detection, Supervision, and Safety for Technical Processes (SAFEPROCESS). IEEE, 2025: 1-5.](https://ieeexplore.ieee.org/document/11268112)
+
+The paper uses Batch-1 and Batch-3 data for validation. The first battery from each batch is used as the test set, and the remaining batteries as the training set. Data from the first N cycles is used as input to predict the RUL, where N is 50, 100, and 200 respectively. The results are as follows:
+
+<img src="./Figures/Li2025a-1.png" alt="Description" width="50%"/>
 
 </details>
 
