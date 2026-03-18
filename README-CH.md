@@ -81,6 +81,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `B1` | RATGH | `AB` | - | <1.14% | <0.655% | <0.598% |  >0.9643 | [Chen et al. (2026a)](#Chen2026a) | [link](https://link.springer.com/article/10.1007/s00202-025-03350-x) | ✅ |  ❌ |
 | `B1b1-b3` | FCSA-PatchTSCT | `AB` | - | <0.0057 | <0.0047 | - | >0.9882 | [Gui et al. (2026a)](#Gui2026a) | [link](https://ieeexplore.ieee.org/document/11265776) | ❌ |  ✅ |
 | `All` | FourierKAN | `AB` | - | 1.0765% | 0.84234% | 0.91732% | - | [He et al. (2025b)](#He2025b) | [link](https://ieeexplore.ieee.org/document/11278989) | ✅ |  ❌ |
+| `All` | EFATransformer | `AB` | - | 0.4101% | 0.266% | 0.296% | - | [Huang et al. (2025a)](#Huang2025a) | [link](https://ieeexplore.ieee.org/document/11244181) | ✅ |  ❌ |
 
 [^1]: 表格中的MSE，RMSE，MAE，MAPE都是所有电池的平均值。
 
@@ -563,6 +564,21 @@ He et al. (2025a)
 文章提出了FourierKAN方法，结果如下：
 
 <img src="./Figures/He2025b-1.png" alt="Description" width="80%"/>
+
+</details>
+
+<details>
+<summary id='Huang2025a'>Huang et al. (2025a)</summary>
+
+[Huang R, Chen Y, Liu C. Revealing state-feature dependencies in dynamic degradation: an exofeature-aware transformer for battery state-of-health prediction[J]. IEEE Transactions on Consumer Electronics, 2025.](https://ieeexplore.ieee.org/document/11244181)
+
+文章使用了所有的数据来验证提出的方法，结果如下：
+
+<img src="./Figures/Huang2025a-1.png" alt="Description" width="80%"/>
+
+与其他方法的对比：
+
+<img src="./Figures/Huang2025a-2.png" alt="Description" width="80%"/>
 
 </details>
 
