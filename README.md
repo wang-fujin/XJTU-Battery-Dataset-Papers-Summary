@@ -82,6 +82,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `B1b1-b3` | FCSA-PatchTSCT | `AB` | - | <0.0057 | <0.0047 | - | >0.9882 | [Gui et al. (2026a)](#Gui2026a) | [link](https://ieeexplore.ieee.org/document/11265776) | ❌ |  ✅ |
 | `All` | FourierKAN | `AB` | - | 1.0765% | 0.84234% | 0.91732% | - | [He et al. (2025b)](#He2025b) | [link](https://ieeexplore.ieee.org/document/11278989) | ✅ |  ❌ |
 | `All` | EFATransformer | `AB` | - | 0.4101% | 0.266% | 0.296% | - | [Huang et al. (2025a)](#Huang2025a) | [link](https://ieeexplore.ieee.org/document/11244181) | ✅ |  ❌ |
+| `B1-B2` | GAT-LSTM | `AB` | - | <0.23% | <0.11% | <0.12%| >0.9972 | [Gao et al. (2025a)](#Gao2025a) | [link](https://ieeexplore.ieee.org/document/11384461) |✅ |  ❌ |
 
 [^1]: The MSE, RMSE, MAE, and MAPE values in the table are averages across all batteries.
 
@@ -588,6 +589,14 @@ Comparison with other methods:
 
 </details>
 
+<details>
+<summary id='Gao2025a'>Gao et al. (2025a)</summary>
+
+[Gao F, Zhang D, Wang P, et al. State-of-Health Estimation of Lithium-Ion Batteries Using Partial Constant-Voltage Charging Data[C]//2025 5th International Conference on New Energy and Power Engineering (ICNEPE). IEEE, 2025: 976-980.](https://ieeexplore.ieee.org/document/11384461)
+
+<img src="./Figures/Gao2025a-1.png" alt="Description" width="50%"/>
+
+</details>
 
 ---
 

@@ -82,6 +82,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `B1b1-b3` | FCSA-PatchTSCT | `AB` | - | <0.0057 | <0.0047 | - | >0.9882 | [Gui et al. (2026a)](#Gui2026a) | [link](https://ieeexplore.ieee.org/document/11265776) | ❌ |  ✅ |
 | `All` | FourierKAN | `AB` | - | 1.0765% | 0.84234% | 0.91732% | - | [He et al. (2025b)](#He2025b) | [link](https://ieeexplore.ieee.org/document/11278989) | ✅ |  ❌ |
 | `All` | EFATransformer | `AB` | - | 0.4101% | 0.266% | 0.296% | - | [Huang et al. (2025a)](#Huang2025a) | [link](https://ieeexplore.ieee.org/document/11244181) | ✅ |  ❌ |
+| `B1-B2` | GAT-LSTM | `AB` | - | <0.23% | <0.11% | <0.12%| >0.9972 | [Gao et al. (2025a)](#Gao2025a) | [link](https://ieeexplore.ieee.org/document/11384461) |✅ |  ❌ |
 
 [^1]: 表格中的MSE，RMSE，MAE，MAPE都是所有电池的平均值。
 
@@ -92,7 +93,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |:-------:|:--------------:|:----:|:----------:|:-------:|:------:|:-----------:|:-------------:|:-------------------------------:|:---------------------------------:|:-----:|:-----:|
 |`B1,B3-B5`| ShuffleNet | `AB` |  - | - | - | - | - | [Feng et al. (2025a)](#feng2025a) | [link](https://doi.org/10.1016/j.est.2025.116210) |          ✅          |        ❌        |
 | `B1-B2` | AlexNet | `AB` | - | 24.04[^2] | - | 7.86% | - | [Yang et al. (2025a)](#Yang2025a) | [link](https://doi.org/10.1016/j.jpowsour.2025.236620) | ✅  | ❌ |
-| `B1,B3` | ECA-CNN | `AB` | - | - | - | - | - | [Li et al. (2025a)](#Li2025a) | [link](https://ieeexplore.ieee.org/document/11268112) | ✅  | ❌ |
+| `B1,B3` | ECA-CNN | `AB` | - | - | - | - | - | [Li et al. (2025a)](#Li2025a) | [link](https://ieeexplore.ieee.org/document/11268112) | ✅  | ❌ | 
 
 [^2]: 单位为cycle。
 
@@ -579,6 +580,15 @@ He et al. (2025a)
 与其他方法的对比：
 
 <img src="./Figures/Huang2025a-2.png" alt="Description" width="80%"/>
+
+</details>
+
+<details>
+<summary id='Gao2025a'>Gao et al. (2025a)</summary>
+
+[Gao F, Zhang D, Wang P, et al. State-of-Health Estimation of Lithium-Ion Batteries Using Partial Constant-Voltage Charging Data[C]//2025 5th International Conference on New Energy and Power Engineering (ICNEPE). IEEE, 2025: 976-980.](https://ieeexplore.ieee.org/document/11384461)
+
+<img src="./Figures/Gao2025a-1.png" alt="Description" width="50%"/>
 
 </details>
 
