@@ -83,6 +83,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `All` | FourierKAN | `AB` | - | 1.0765% | 0.84234% | 0.91732% | - | [He et al. (2025b)](#He2025b) | [link](https://ieeexplore.ieee.org/document/11278989) | ✅ |  ❌ |
 | `All` | EFATransformer | `AB` | - | 0.4101% | 0.266% | 0.296% | - | [Huang et al. (2025a)](#Huang2025a) | [link](https://ieeexplore.ieee.org/document/11244181) | ✅ |  ❌ |
 | `B1-B2` | GAT-LSTM | `AB` | - | <0.23% | <0.11% | <0.12%| >0.9972 | [Gao et al. (2025a)](#Gao2025a) | [link](https://ieeexplore.ieee.org/document/11384461) |✅ |  ❌ |
+| `B2` | xLSTM | `AB` | - | 0.27% | - | 0.19% | 0.996 | [Meng et al. (2025a)](#Meng2025a) | [link](https://doi.org/10.1016/j.ijepes.2025.111146) |✅ |  ❌ |
 
 [^1]: The MSE, RMSE, MAE, and MAPE values in the table are averages across all batteries.
 
@@ -595,6 +596,17 @@ Comparison with other methods:
 [Gao F, Zhang D, Wang P, et al. State-of-Health Estimation of Lithium-Ion Batteries Using Partial Constant-Voltage Charging Data[C]//2025 5th International Conference on New Energy and Power Engineering (ICNEPE). IEEE, 2025: 976-980.](https://ieeexplore.ieee.org/document/11384461)
 
 <img src="./Figures/Gao2025a-1.png" alt="Description" width="50%"/>
+
+</details>
+
+<details>
+<summary id='Meng2025a'>Meng et al. (2025a)</summary>
+
+[Meng X, Xu S, Yu Y, et al. Extended long short-term memory network for robust state-of-health estimation of lithium-ion batteries under diverse charging strategies[J]. International Journal of Electrical Power & Energy Systems, 2025, 172: 111146.](https://doi.org/10.1016/j.ijepes.2025.111146)
+
+This paper uses 15 batteries from a Batch-2 dataset for verification, and the results are as follows:
+
+<img src="./Figures/Meng2025a-1.png" alt="Description" width="50%"/>
 
 </details>
 

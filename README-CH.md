@@ -83,6 +83,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `All` | FourierKAN | `AB` | - | 1.0765% | 0.84234% | 0.91732% | - | [He et al. (2025b)](#He2025b) | [link](https://ieeexplore.ieee.org/document/11278989) | ✅ |  ❌ |
 | `All` | EFATransformer | `AB` | - | 0.4101% | 0.266% | 0.296% | - | [Huang et al. (2025a)](#Huang2025a) | [link](https://ieeexplore.ieee.org/document/11244181) | ✅ |  ❌ |
 | `B1-B2` | GAT-LSTM | `AB` | - | <0.23% | <0.11% | <0.12%| >0.9972 | [Gao et al. (2025a)](#Gao2025a) | [link](https://ieeexplore.ieee.org/document/11384461) |✅ |  ❌ |
+| `B2` | xLSTM | `AB` | - | 0.27% | - | 0.19% | 0.996 | [Meng et al. (2025a)](#Meng2025a) | [link](https://doi.org/10.1016/j.ijepes.2025.111146) |✅ |  ❌ |
 
 [^1]: 表格中的MSE，RMSE，MAE，MAPE都是所有电池的平均值。
 
@@ -592,6 +593,17 @@ He et al. (2025a)
 
 </details>
 
+
+<details>
+<summary id='Meng2025a'>Meng et al. (2025a)</summary>
+
+[Meng X, Xu S, Yu Y, et al. Extended long short-term memory network for robust state-of-health estimation of lithium-ion batteries under diverse charging strategies[J]. International Journal of Electrical Power & Energy Systems, 2025, 172: 111146.](https://doi.org/10.1016/j.ijepes.2025.111146)
+
+文章使用Batch-2的15个电池进行验证，结果如下：
+
+<img src="./Figures/Meng2025a-1.png" alt="Description" width="50%"/>
+
+</details>
 
 ---
 
