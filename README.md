@@ -84,6 +84,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `All` | EFATransformer | `AB` | - | 0.4101% | 0.266% | 0.296% | - | [Huang et al. (2025a)](#Huang2025a) | [link](https://ieeexplore.ieee.org/document/11244181) | ✅ |  ❌ |
 | `B1-B2` | GAT-LSTM | `AB` | - | <0.23% | <0.11% | <0.12%| >0.9972 | [Gao et al. (2025a)](#Gao2025a) | [link](https://ieeexplore.ieee.org/document/11384461) |✅ |  ❌ |
 | `B2` | xLSTM | `AB` | - | 0.27% | - | 0.19% | 0.996 | [Meng et al. (2025a)](#Meng2025a) | [link](https://doi.org/10.1016/j.ijepes.2025.111146) |✅ |  ❌ |
+| `B1b1`,`B3b1`,`B4b1`,`B5b1` | MBLSTM+iTransformer | - | view details | view details | view details | - | view details | [Guo et al. (2025a)](#Guo2025a) | [link](https://ieeexplore.ieee.org/document/11217227) |✅ |  ❌ |
 
 [^1]: The MSE, RMSE, MAE, and MAPE values in the table are averages across all batteries.
 
@@ -607,6 +608,21 @@ Comparison with other methods:
 This paper uses 15 batteries from a Batch-2 dataset for verification, and the results are as follows:
 
 <img src="./Figures/Meng2025a-1.png" alt="Description" width="50%"/>
+
+</details>
+
+<details>
+<summary id='Guo2025a'>Guo et al. (2025a)</summary>
+
+[Guo F, Xu K, Zhang Z, et al. Battery SOH Prediction Under Different Conditions via MBLSTM and Itransformer With Anomaly Detection and Explainability[J]. IEEE Open Journal of the Computer Society, 2025.](https://ieeexplore.ieee.org/document/11217227)
+
+The method proposed in this paper is `MBLSTM+iTransformer`, and the data used are shown in the figure below:
+
+<img src="./Figures/Guo2025a-1.png" alt="Description" width="80%"/>
+
+The results are as follows:
+
+<img src="./Figures/Guo2025a-2.png" alt="Description" width="80%"/>
 
 </details>
 
