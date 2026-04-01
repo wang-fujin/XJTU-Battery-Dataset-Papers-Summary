@@ -96,6 +96,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |`B1,B3-B5`| ShuffleNet | `AB` |  - | - | - | - | - | [Feng et al. (2025a)](#feng2025a) | [link](https://doi.org/10.1016/j.est.2025.116210) |          ✅          |        ❌        |
 | `B1-B2` | AlexNet | `AB` | - | 24.04[^2] | - | 7.86% | - | [Yang et al. (2025a)](#Yang2025a) | [link](https://doi.org/10.1016/j.jpowsour.2025.236620) | ✅  | ❌ |
 | `B1,B3` | ECA-CNN | `AB` | - | - | - | - | - | [Li et al. (2025a)](#Li2025a) | [link](https://ieeexplore.ieee.org/document/11268112) | ✅  | ❌ |
+| `B1,B2,B6` | ACCSE | `AB` | - | 69 | 55 | 10.05% | 0.96 | [Bi et al. (2026a)](#Bi2026a) | [link](https://doi.org/10.1016/j.apenergy.2026.127515) | ✅  | ❌ | 
 
 [^2]: The unit is `cycle`.
 
@@ -671,6 +672,22 @@ The paper uses Batch-1 and Batch-3 data for validation. The first battery from e
 <img src="./Figures/Li2025a-1.png" alt="Description" width="50%"/>
 
 </details>
+
+
+<details>
+<summary id="Bi2026a">Bi et al. (2026a)</summary>
+
+[Bi J, Fei Z, Wang J. Adaptive confidence-calibrated semi-supervised ensemble for early-cycle battery lifetime prediction[J]. Applied Energy, 2026, 409: 127515.](https://doi.org/10.1016/j.apenergy.2026.127515)
+
+The article uses data from Batch-1, Batch-2, and Batch-6 to validate the proposed method, utilizing data from the first 100 cycles as input to predict the RUL.
+
+**Data visualization**:
+
+<img src="./Figures/Bi2026a-1.png" alt="Description" width="80%"/>
+
+**Results**:
+
+<img src="./Figures/Bi2026a-2.png" alt="Description" width="50%"/>
 
 ---
 
