@@ -690,6 +690,8 @@ The article uses data from Batch-1, Batch-2, and Batch-6 to validate the propose
 
 <img src="./Figures/Bi2026a-2.png" alt="Description" width="50%"/>
 
+</details>
+
 <details>
 <summary id="Zeng2025a">Zeng et al. (2025a)</summary>
 
