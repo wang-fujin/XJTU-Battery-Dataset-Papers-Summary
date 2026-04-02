@@ -97,6 +97,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `B1-B2` | AlexNet | `AB` | - | 24.04[^2] | - | 7.86% | - | [Yang et al. (2025a)](#Yang2025a) | [link](https://doi.org/10.1016/j.jpowsour.2025.236620) | ✅  | ❌ |
 | `B1,B3` | ECA-CNN | `AB` | - | - | - | - | - | [Li et al. (2025a)](#Li2025a) | [link](https://ieeexplore.ieee.org/document/11268112) | ✅  | ❌ |
 | `B1,B2,B6` | ACCSE | `AB` | - | 69 | 55 | 10.05% | 0.96 | [Bi et al. (2026a)](#Bi2026a) | [link](https://doi.org/10.1016/j.apenergy.2026.127515) | ✅  | ❌ | 
+| `B1-B5` | NWAS | `AB` | - | view details | view details | view details | view details | [Zeng et al. (2025a)](#Zeng2025a) | [link](https://doi.org/10.1007/s11581-025-06794-0) | ✅  | ❌ | 
 
 [^2]: The unit is `cycle`.
 
@@ -688,6 +689,24 @@ The article uses data from Batch-1, Batch-2, and Batch-6 to validate the propose
 **Results**:
 
 <img src="./Figures/Bi2026a-2.png" alt="Description" width="50%"/>
+
+<details>
+<summary id="Zeng2025a">Zeng et al. (2025a)</summary>
+
+[Zeng L, Jiang Z, Wang S. Remaining useful life prediction of lithium-ion batteries based on MWASFormer network[J]. Ionics, 2026, 32(1): 503-522.](https://doi.org/10.1007/s11581-025-06794-0)
+
+This paper uses data from Batch-1 to Batch-5 for validation.
+Instead of directly outputting the RUL, it outputs the capacity of the next cycle and predicts the RUL through iterative extrapolation.
+
+Results:
+
+<img src="./Figures/Zeng2025a-1.png" alt="Description" width="80%"/>
+
+<img src="./Figures/Zeng2025a-2.png" alt="Description" width="80%"/>
+
+<img src="./Figures/Zeng2025a-3.png" alt="Description" width="80%"/>
+
+</details>
 
 ---
 
