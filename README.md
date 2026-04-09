@@ -88,6 +88,21 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 
 [^1]: The MSE, RMSE, MAE, and MAPE values in the table are averages across all batteries.
 
+**There are too many papers to keep up with, so only the `Battery` and `Paper` columns are currently maintained.** 😥😥😥
+
+| Battery | Paper |
+|:-------:|:--------------------------:|
+| `B1b1`,`B1b3`, `B1b5`, `B1b7` | [Wang C, Wang C, Wang W, et al. Dual-correlation sample selection and multi-scale sparse attention Transformer for battery state-of-health estimation[J]. Available at SSRN 5648360.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5648360) |
+| `B1-B2` | [Su L, Tao S, Li W, et al. Data sufficiency for transferable lithium-ion battery periodical SOH estimation under resource constraints[J]. Cell Reports Physical Science, 2025, 6(10).](https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(25)00500-4) |
+| `B1-B2` | [Luan W, Cai H, Wang X, et al. State of Health for Lithium-Ion Batteries Based on Explainable Feature Fragments via Graph Attention Network and Bi-Directional Gated Recurrent Unit[J]. Sensors, 2025, 25(19): 5953.](https://www.mdpi.com/1424-8220/25/19/5953) |
+| `All` | [Liu L, Huang J, Peng B, et al. Physics-informed and interpretable state of health estimation framework for lithium-ion batteries[J]. Journal of Energy Storage, 2026, 153: 120860.](https://doi.org/10.1016/j.est.2026.120860) |
+| `B1`,`B3` | [Pang X, Zhang X, Guo Z, et al. TFDDA: a time-frequency deep domain adaptation method for cross-domain state of health estimation of lithium-ion batteries[J]. Engineering Research Express, 2026, 8(4): 045210.](https://iopscience.iop.org/article/10.1088/2631-8695/ae43b2/meta) |
+| `B1` | [Rasul M J M A, Abbas A, Baek J, et al. A hybrid ensemble learning framework with uncertainty quantification for state-of-health estimation in lithium-ion batteries[J]. Measurement, 2026: 120528.](https://doi.org/10.1016/j.measurement.2026.120528) |
+| `All` | [Hu Z, Wu Z, Wang X, et al. SOH estimation and prediction of lithium-ion batteries based on a physically constrained hybrid neural network[J]. Journal of Energy Storage, 2026, 151: 120587.](https://doi.org/10.1016/j.est.2026.120587) |
+| `B1-B3` | [Zhang Z, Shang Y, Li X, et al. Large Battery Model for Multi-State Co-estimation and Intelligent Recommendation using Mixed Data Sources[J]. Energy Storage Materials, 2026: 104892.](https://doi.org/10.1016/j.ensm.2026.104892) |
+| `B1`,`B4` | [Gao K, Li Q, Hu L, et al. Physical informed neural network for SOH estimation of lithium-ion battery with electrochemical mechanism[J]. Energy, 2025: 139753.](https://doi.org/10.1016/j.energy.2025.139753) |
+
+
 ---
 
 ### Summary of RUL Prediction Results
