@@ -91,7 +91,7 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 **There are too many papers to keep up with, so only the `Battery` and `Paper` columns are currently maintained.** 😥😥😥
 
 | Battery | Paper |
-|:-------:|:--------------------------:|
+|:-------:|:--------------------------|
 | `B1b1`,`B1b3`, `B1b5`, `B1b7` | [Wang C, Wang C, Wang W, et al. Dual-correlation sample selection and multi-scale sparse attention Transformer for battery state-of-health estimation[J]. Available at SSRN 5648360.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5648360) |
 | `B1-B2` | [Su L, Tao S, Li W, et al. Data sufficiency for transferable lithium-ion battery periodical SOH estimation under resource constraints[J]. Cell Reports Physical Science, 2025, 6(10).](https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(25)00500-4) |
 | `B1-B2` | [Luan W, Cai H, Wang X, et al. State of Health for Lithium-Ion Batteries Based on Explainable Feature Fragments via Graph Attention Network and Bi-Directional Gated Recurrent Unit[J]. Sensors, 2025, 25(19): 5953.](https://www.mdpi.com/1424-8220/25/19/5953) |
@@ -101,6 +101,18 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `All` | [Hu Z, Wu Z, Wang X, et al. SOH estimation and prediction of lithium-ion batteries based on a physically constrained hybrid neural network[J]. Journal of Energy Storage, 2026, 151: 120587.](https://doi.org/10.1016/j.est.2026.120587) |
 | `B1-B3` | [Zhang Z, Shang Y, Li X, et al. Large Battery Model for Multi-State Co-estimation and Intelligent Recommendation using Mixed Data Sources[J]. Energy Storage Materials, 2026: 104892.](https://doi.org/10.1016/j.ensm.2026.104892) |
 | `B1`,`B4` | [Gao K, Li Q, Hu L, et al. Physical informed neural network for SOH estimation of lithium-ion battery with electrochemical mechanism[J]. Energy, 2025: 139753.](https://doi.org/10.1016/j.energy.2025.139753) |
+| `B1-B3` | [Zeng J, Yang Z, Zhu H, et al. Hybrid Experts-decoupled and physics-informed neural network for lithium-ion battery degradation modeling and prognosis[J]. Energy Storage Materials, 2026: 105002.](https://www.sciencedirect.com/science/article/pii/S2405829726001352) |
+|  `All` | [Zhang Z, Shang Y, Li X, et al. Large Battery Model for Multi-State Co-estimation and Intelligent Recommendation using Mixed Data Sources[J]. Energy Storage Materials, 2026: 104892.](https://www.sciencedirect.com/science/article/pii/S2405829726000255) |
+| `B1-B4` | [Le H, Deng W, Nguyen K T P, et al. Physics-informed transfer learning by embedding physics into activation functions: an application in battery health management[J]. Applied Energy, 2026, 406: 127161.](https://www.sciencedirect.com/science/article/pii/S0306261925018914) |
+| `B6` | [Cao D, Zheng Z K, Zheng G, et al. Multi-level feature-based cross-domain SOH prediction for lithium-ion batteries with dual-stage loss[J]. Electric Power Systems Research, 2026, 253: 112550.](https://www.sciencedirect.com/science/article/pii/S037877962501137X) |
+| `All` | [Chen Y, Chen X, Sun S, et al. A hybrid and efficient architecture for enhanced battery capacity degradation prediction with zero-shot generalization[J]. Energy, 2025: 139437.](https://www.sciencedirect.com/science/article/pii/S0360544225050790) |
+| `All` | [Yuan Z, Deng Z, He Y, et al. Multi-step prediction of battery state of health based on self-supervised pre-training and transfer learning using the xPatch model[J]. Energy, 2025: 139410.](https://www.sciencedirect.com/science/article/pii/S0360544225050522) |
+| `All` | [Nie X, Pan Y, Zhang Y, et al. Battery health prediction under data scarcity: A cross-domain physics-informed 5-shot framework with GRU-Transformer[J]. Applied Energy, 2026, 402: 127012.](https://www.sciencedirect.com/science/article/pii/S0306261925017428) |
+| `B1-B4` | [Liu Z, Ye S, Cui F, et al. Physical Information-Guided Kolmogorov–Arnold Networks for Battery State of Health Estimation[J]. Energies, 2025, 18(22): 5865.](https://www.mdpi.com/1996-1073/18/22/5865) |
+| `B1-B2` | [Tang X, Liu Z, Li P, et al. Global-Local Feature Fusion for Accurate Long-Term Battery State-of-Health Forecast[J]. IEEE Transactions on Transportation Electrification, 2025.](https://ieeexplore.ieee.org/abstract/document/11215651) |
+
+
+
 
 
 ---
@@ -115,6 +127,10 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 | `B1-B5` | NWAS | `AB` | - | view details | view details | view details | view details | [Zeng et al. (2025a)](#Zeng2025a) | [link](https://doi.org/10.1007/s11581-025-06794-0) | ✅  | ❌ | 
 
 [^2]: The unit is `cycle`.
+
+| Battery | Paper |
+|:-------:|:--------------------------|
+| `B1-B2` | [Tang A, Li Y, Tian J, et al. Exploiting physics-knowledge from unlabeled data to enhance battery lifetime prediction[J]. eTransportation, 2026: 100560.](https://www.sciencedirect.com/science/article/pii/S2590116826000184) |
 
 ---
 
@@ -139,6 +155,10 @@ https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library
 |:-------:|:----------:|:----:|:----------:|:-----:|:-----:|:-----:|:-------------:|:---------------------------------:|:-----:|:-----:|:-----:|
 | `B1` |    TFN     | `AB` |  -  | 0.78% | 0.61% | 2.70% | - | [Wang et al. (2025a)](#wang2025a) | [link](https://doi.org/10.1016/j.energy.2025.134722) |          ✅          |        ❌        |
 |`B3` |    TFN     | `AB` |  -  | 2.27% | 1.90% | 5.47% | - | [Wang et al. (2025a)](#wang2025a) | [link](https://doi.org/10.1016/j.energy.2025.134722) |          ✅          |        ❌        |
+
+| Battery | Paper |
+|:-------:|:--------------------------|
+|  `All` | [Zhang Z, Shang Y, Li X, et al. Large Battery Model for Multi-State Co-estimation and Intelligent Recommendation using Mixed Data Sources[J]. Energy Storage Materials, 2026: 104892.](https://www.sciencedirect.com/science/article/pii/S2405829726000255) |
 
 ---
 
